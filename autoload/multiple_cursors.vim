@@ -1146,12 +1146,28 @@ endfunction
 
 let s:retry_keys = ""
 function! s:display_error()
+    " echohl ErrorMsg |
+                    " \ echo "1 s:char[0]".s:char.
+                    " \ "" |
+                    " \ echohl Normal
     if s:bad_input == s:cm.size()
                 \ && ((s:from_mode ==# 'n'      && has_key(g:multi_cursor_normal_maps, s:char[0]))
                 \ ||    (s:from_mode =~# 'v\|V' && has_key(g:multi_cursor_visual_maps, s:char[0])))
         " we couldn't replay it anywhere but we're told it's the beginning of a
         " multi-character map like the `d` in `dw`
         let s:retry_keys = s:char
+        echohl ErrorMsg | echo "2【".s:char."】" | echohl Normal
+
+        if s:last_char() == g:multi_cursor_quit_key
+            echohl ErrorMsg | echo "get multi_cursor_quit_key" | echohl Normal
+
+            let s:char = ""
+            let s:bad_input = 0
+            let s:retry_keys = ""
+            let s:saved_char = ""
+
+            return 1
+        endif
     else
         let s:retry_keys = ""
         if s:bad_input > 0
@@ -1159,7 +1175,16 @@ function! s:display_error()
                         \ echo "Key '".s:char."' cannot be replayed at ".
                         \ s:bad_input." cursor location".(s:bad_input == 1 ? '' : 's') |
                         \ echohl Normal
+            " echohl ErrorMsg |
+                        " \ echo "4 s:char[0]".s:char.
+                        " \ "" |
+                        " \ echohl Normal
         endif
+        " echohl ErrorMsg |
+                        " \ echo "3 s:char[0]".s:char.
+                        " \ "" |
+                        " \ echohl Normal
+
     endif
     let s:bad_input = 0
 endfunction
@@ -1204,7 +1229,13 @@ function! s:last_char()
 endfunction
 
 function! s:wait_for_user_input(mode)
-    call s:display_error()
+    " if return means clear the char buffer and restart the loop for waiting
+    " for user input
+    if s:display_error()
+        call s:cm.start_loop()
+        call s:feedkeys("\<Plug>(multiple-cursors-input)")
+        return
+    endif
 
     let s:from_mode = a:mode
     if empty(a:mode)
@@ -1297,6 +1328,11 @@ function! s:wait_for_user_input(mode)
         else
             let is_special_key = (index(sk_list, s:char) != -1)
             let is_quit_key = (g:multi_cursor_quit_key == s:char)
+            " let is_quit_key = (g:multi_cursor_quit_key == s:last_char())
+            " if is_quit_key == 1
+                " s:char = g:multi_cursor_quit_key
+            " endif
+
             if is_special_key == 1 || is_quit_key == 1
                 break
             else
