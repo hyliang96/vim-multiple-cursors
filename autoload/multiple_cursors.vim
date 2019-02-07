@@ -1146,17 +1146,14 @@ endfunction
 
 let s:retry_keys = ""
 function! s:display_error()
-    " echohl ErrorMsg |
-                    " \ echo "1 s:char[0]".s:char.
-                    " \ "" |
-                    " \ echohl Normal
+    " echon " 1【".s:char."】"
     if s:bad_input == s:cm.size()
                 \ && ((s:from_mode ==# 'n'      && has_key(g:multi_cursor_normal_maps, s:char[0]))
                 \ ||    (s:from_mode =~# 'v\|V' && has_key(g:multi_cursor_visual_maps, s:char[0])))
         " we couldn't replay it anywhere but we're told it's the beginning of a
         " multi-character map like the `d` in `dw`
         let s:retry_keys = s:char
-        echohl ErrorMsg | echo "2【".s:char."】" | echohl Normal
+        " echohl ErrorMsg | echo " 2【".s:char."】" | echohl Normal
 
         if s:last_char() == g:multi_cursor_quit_key
             echohl ErrorMsg | echo "get multi_cursor_quit_key" | echohl Normal
@@ -1228,6 +1225,48 @@ function! s:last_char()
     return s:char[len(s:char)-1]
 endfunction
 
+function! ToEscapedKey(str)
+    exec 'redir => l:result | silent! echo "'.a:str.'" | redir END'
+    " echon '---' l:result
+    return l:result
+endfunction
+
+function! Mapkeyn(lhs, mode)
+    " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
+    exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
+    exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
+
+    " echon " 0=" . l:lhs_echo_0
+
+    for l:map in split(l:mappings, '\n')
+        let l:map = substitute(l:map, '^[a-z]*\s\+','','g')
+        let l:lhs = split(l:map, '\s\+')[0]
+        " let l:rhs = split(l:map, '\s\+')[1]
+
+        " let l:rhs = substitute(l:rhs, '^\*\ \?', '','g')
+        " echon l:lhs." | "
+        let l:sublhs =substitute(l:lhs,'<','\\<','g')
+        let l:sublhs = substitute(l:sublhs, '"','\\"','g')
+        let l:lhs_echo = ToEscapedKey(l:sublhs)
+        " echon " | ".l:lhs_echo
+
+        if l:lhs_echo == l:lhs_echo_0
+            let l:map_dict = maparg(l:lhs, a:mode, 0, 1)
+            " echo "this one" l:rhs
+            if get(l:map_dict, 'expr', 0)
+                " handle case where {rhs} is a function
+                exec 'let l:rhs = ' . l:map_dict['rhs']
+            else
+                let l:rhs = maparg(l:lhs, a:mode)
+            endif
+            return l:rhs
+        endif
+
+    endfor
+    return ''
+endfunction
+
+
 function! s:wait_for_user_input(mode)
     " if return means clear the char buffer and restart the loop for waiting
     " for user input
@@ -1260,6 +1299,9 @@ function! s:wait_for_user_input(mode)
     else
         let s:saved_keys = ""
     endif
+
+
+    " echon " brefre_if【".s:char."】"
 
     " ambiguous mappings are note supported; e.g.:
     "       imap jj JJ
@@ -1296,8 +1338,36 @@ function! s:wait_for_user_input(mode)
         call s:cm.reset(1, 1, 1)
         return
     elseif s:from_mode ==# 'n' || s:from_mode =~# 'v\|V'
+        echon " before_getchar【".s:char."】"
+
+        " let map_dict = {}
+        " let s_time = s:get_time_in_ms()
+        " while 1
+
+        let char_mapping =  Mapkeyn(s:char, s:from_mode)
+
+        " echon "【char_mapping】"char_mapping
+        " break if chars exactly match mapping or if chars don't match beging of mapping anymore
+        if char_mapping != ""
+            " echon " before_subs【".s:char."】"
+            " handle case where mapping is <esc>
+            exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+            " echon " after_subs【".s:char."】"
+            " break
+        endif
+
+            " if s:get_time_in_ms() > (s_time + &timeoutlen)
+                " break
+            " endif
+            " let new_char = s:get_char(0)
+            " let s:char .= new_char
+            " if new_char == ''
+                " sleep 50m
+            " endif
+        " endwhile
+
         while match(s:last_char(), "\\d") == 0
-            if match(s:char, '\(^\|\a\)0') == 0
+            if match(s:char, '\(^\|\a\)0') != -1
                 " fixes an edge case concerning the `0` key.
                 " The 0 key behaves differently from [1-9].
                 " It's consumed immediately when it is the
@@ -1307,12 +1377,16 @@ function! s:wait_for_user_input(mode)
             endif
             let s:char .= s:get_char()
         endwhile
+
+
     endif
+
+    " echon " after_if【".s:char."】"
 
     call s:start_latency_measure()
 
     " Clears any echoes we might've added
-    normal! :<Esc>
+    " normal! :<Esc>
 
     " add chars to s:char if it start like a special/quit key
     let is_special_key = 0
@@ -1348,9 +1422,13 @@ function! s:wait_for_user_input(mode)
         end
     endwhile
 
+    " echon " before_exit【".s:char."】"
+
     if s:exit()
         return
     endif
+
+    " echon " after_exit【".s:char."】"
 
     " If the key is a special key and we're in the right mode, handle it
     if is_special_key == 1
