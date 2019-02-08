@@ -1301,7 +1301,7 @@ function! s:wait_for_user_input(mode)
     endif
 
 
-    " echon " brefre_if【".s:char."】"
+    echon " before_if【".s:char."】"
 
     " ambiguous mappings are note supported; e.g.:
     "       imap jj JJ
@@ -1346,13 +1346,13 @@ function! s:wait_for_user_input(mode)
 
         let char_mapping =  Mapkeyn(s:char, s:from_mode)
 
-        " echon "【char_mapping】"char_mapping
+        echon "【char_mapping】".char_mapping
         " break if chars exactly match mapping or if chars don't match beging of mapping anymore
         if char_mapping != ""
-            " echon " before_subs【".s:char."】"
+            echon " before_subs【".s:char."】"
             " handle case where mapping is <esc>
             exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-            " echon " after_subs【".s:char."】"
+            echon " after_subs【".s:char."】"
             " break
         endif
 
@@ -1366,22 +1366,23 @@ function! s:wait_for_user_input(mode)
             " endif
         " endwhile
 
-        while match(s:last_char(), "\\d") == 0
-            if match(s:char, '\(^\|\a\)0') != -1
+        while match(s:char, '\(^\|[^0-9]\)0\+$') == -1 && match(s:last_char(), "\\d") != -1
+        " while match(s:last_char(), "\\d") == 0
+            " if match(s:char, '\(^\|\a\)0') != -1
                 " fixes an edge case concerning the `0` key.
                 " The 0 key behaves differently from [1-9].
                 " It's consumed immediately when it is the
                 " first key typed while we're waiting for input.
                 " References: issue #152, pull #241
-                break
-            endif
+                " break
+            " endif
             let s:char .= s:get_char()
         endwhile
 
 
     endif
 
-    " echon " after_if【".s:char."】"
+    echon " after_if【".s:char."】"
 
     call s:start_latency_measure()
 
@@ -1422,13 +1423,13 @@ function! s:wait_for_user_input(mode)
         end
     endwhile
 
-    " echon " before_exit【".s:char."】"
+    echon " before_exit【".s:char."】"
 
     if s:exit()
         return
     endif
 
-    " echon " after_exit【".s:char."】"
+    echon " after_exit【".s:char."】"
 
     " If the key is a special key and we're in the right mode, handle it
     if is_special_key == 1
