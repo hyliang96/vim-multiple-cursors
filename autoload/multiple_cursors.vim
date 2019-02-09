@@ -1267,6 +1267,35 @@ function! Mapkeyn(lhs, mode)
 endfunction
 
 
+
+function! MapMatch(lhs, mode)
+    " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
+    exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
+    exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
+
+    " echon " 0=" . l:lhs_echo_0
+
+    for l:map in split(l:mappings, '\n')
+        let l:map = substitute(l:map, '^[a-z]*\s\+','','g')
+        let l:lhs = split(l:map, '\s\+')[0]
+        " let l:rhs = split(l:map, '\s\+')[1]
+
+        " let l:rhs = substitute(l:rhs, '^\*\ \?', '','g')
+        " echon l:lhs." | "
+        let l:sublhs =substitute(l:lhs,'<','\\<','g')
+        let l:sublhs = substitute(l:sublhs, '"','\\"','g')
+        let l:lhs_echo = ToEscapedKey(l:sublhs)
+        " echon " | ".l:lhs_echo
+
+        if match(l:lhs_echo, '^'.l:lhs_echo_0) != -1
+            return 1
+        endif
+
+    endfor
+    return 0
+endfunction
+
+
 function! s:wait_for_user_input(mode)
     " if return means clear the char buffer and restart the loop for waiting
     " for user input
@@ -1340,31 +1369,33 @@ function! s:wait_for_user_input(mode)
     elseif s:from_mode ==# 'n' || s:from_mode =~# 'v\|V'
         echon " before_getchar【".s:char."】"
 
-        " let map_dict = {}
-        " let s_time = s:get_time_in_ms()
-        " while 1
+        if MapMatch(s:char, s:from_mode)
+            let map_dict = {}
+            let s_time = s:get_time_in_ms()
+            while 1
 
-        let char_mapping =  Mapkeyn(s:char, s:from_mode)
+                let char_mapping =  Mapkeyn(s:char, s:from_mode)
 
-        echon "【char_mapping】".char_mapping
-        " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-        if char_mapping != ""
-            echon " before_subs【".s:char."】"
-            " handle case where mapping is <esc>
-            exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-            echon " after_subs【".s:char."】"
-            " break
+                echon "【char_mapping】".char_mapping
+                " break if chars exactly match mapping or if chars don't match beging of mapping anymore
+                if char_mapping != "" || MapMatch(s:char, s:from_mode) == 0
+                    echon " before_subs【".s:char."】"
+                    " handle case where mapping is <esc>
+                    exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+                    echon " after_subs【".s:char."】"
+                    break
+                endif
+
+                if s:get_time_in_ms() > (s_time + &timeoutlen)
+                    break
+                endif
+                let new_char = s:get_char(0)
+                let s:char .= new_char
+                if new_char == ''
+                    sleep 50m
+                endif
+            endwhile
         endif
-
-            " if s:get_time_in_ms() > (s_time + &timeoutlen)
-                " break
-            " endif
-            " let new_char = s:get_char(0)
-            " let s:char .= new_char
-            " if new_char == ''
-                " sleep 50m
-            " endif
-        " endwhile
 
         while match(s:char, '\(^\|[^0-9]\)0\+$') == -1 && match(s:last_char(), "\\d") != -1
         " while match(s:last_char(), "\\d") == 0

@@ -69,7 +69,9 @@ if exists('g:multi_cursor_start_key')
   exec 'nnoremap <silent> '.g:multi_cursor_start_key.
         \' :call multiple_cursors#new("n", 0)<CR>'
   exec 'xnoremap <silent> '.g:multi_cursor_start_key.
-        \' :<C-u>call multiple_cursors#new("v", 0)<CR>'
+        \' :<c-u>stopinsert<cr>gv:<C-u>call multiple_cursors#new("v", 0)<CR>'
+  exec 'inoremap <silent> '.g:multi_cursor_start_key.
+        \' <c-o>:stopinsert<cr>:call multiple_cursors#new("n", 0)<CR>'
 endif
 
 if exists('g:multi_cursor_start_word_key')
@@ -77,14 +79,18 @@ if exists('g:multi_cursor_start_word_key')
         \' :call multiple_cursors#new("n", 1)<CR>'
   " In Visual mode word boundary is not used
   exec 'xnoremap <silent> '.g:multi_cursor_start_word_key.
-        \' :<C-u>call multiple_cursors#new("v", 0)<CR>'
+        \' :<c-u>stopinsert<cr>gv:<C-u>call multiple_cursors#new("v", 0)<CR>'
+  exec 'inoremap <silent> '.g:multi_cursor_start_word_key.
+        \' <c-o>:stopinsert<cr>:call multiple_cursors#new("n", 1)<CR>'
 endif
 
 if exists('g:multi_cursor_select_all_key')
   exec 'nnoremap <silent> '.g:multi_cursor_select_all_key.
         \' :call multiple_cursors#select_all("n", 0)<CR>'
   exec 'xnoremap <silent> '.g:multi_cursor_select_all_key.
-        \' :<C-u>call multiple_cursors#select_all("v", 0)<CR>'
+        \' :<c-u>stopinsert<cr>gv:<C-u>call multiple_cursors#select_all("v", 0)<CR>'
+  exec 'inoremap <silent> '.g:multi_cursor_select_all_key.
+        \' <c-o>:stopinsert<cr>:call multiple_cursors#select_all("n", 0)<CR>'
 endif
 
 if exists('g:multi_cursor_select_all_word_key')
@@ -92,7 +98,9 @@ if exists('g:multi_cursor_select_all_word_key')
         \' :call multiple_cursors#select_all("n", 1)<CR>'
   " In Visual mode word boundary is not used
   exec 'xnoremap <silent> '.g:multi_cursor_select_all_word_key.
-        \' :<C-u>call multiple_cursors#select_all("v", 0)<CR>'
+        \' :<c-u>stopinsert<cr>gv:<C-u>call multiple_cursors#select_all("v", 0)<CR>'
+  exec 'inoremap <silent> '.g:multi_cursor_select_all_word_key.
+        \' <c-o>:stopinsert<cr>:call multiple_cursors#select_all("n", 1)<CR>'
 endif
 
 " Commands
