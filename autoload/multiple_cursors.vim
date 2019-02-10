@@ -1225,32 +1225,108 @@ function! s:last_char()
     return s:char[len(s:char)-1]
 endfunction
 
+" function! ToEscapedKey(str)
+    " exec 'redir => l:result | silent! echo "'.a:str.'" | redir END'
+    " " echon '---' l:result
+    " return l:result
+" endfunction
+
+" function! MapArg(lhs, mode)
+    " " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
+    " exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
+    " exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
+
+    " " echon " 0=" . l:lhs_echo_0
+
+    " for l:map in split(l:mappings, '\n')
+        " let l:map = substitute(l:map, '^[a-z]*\s\+','','g')
+        " let l:lhs = split(l:map, '\s\+')[0]
+        " " let l:rhs = split(l:map, '\s\+')[1]
+
+        " " let l:rhs = substitute(l:rhs, '^\*\ \?', '','g')
+        " " echon l:lhs." | "
+        " let l:sublhs = substitute(l:lhs,'<','\\<','g')
+        " let l:sublhs = substitute(l:sublhs, '"','\\"','g')
+        " let l:lhs_echo = ToEscapedKey(l:sublhs)
+        " " echon " | ".l:lhs_echo
+
+        " if l:lhs_echo ==# l:lhs_echo_0
+            " let l:map_dict = maparg(l:lhs, a:mode, 0, 1)
+            " " echo "this one" l:rhs
+            " if get(l:map_dict, 'expr', 0)
+                " " handle case where {rhs} is a function
+                " exec 'let l:rhs = ' . l:map_dict['rhs']
+            " else
+                " let l:rhs = maparg(l:lhs, a:mode)
+            " endif
+            " echon "【left】".l:lhs
+            " return l:rhs
+        " endif
+
+    " endfor
+    " return ''
+" endfunction
+
+
+
+" function! MapCheck(lhs, mode)
+    " " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
+    " exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
+    " exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
+
+    " " echon " 0=" . l:lhs_echo_0
+
+    " for l:map in split(l:mappings, '\n')
+        " let l:map = substitute(l:map, '^[a-z]*\s\+','','g')
+        " let l:lhs = split(l:map, '\s\+')[0]
+        " " let l:rhs = split(l:map, '\s\+')[1]
+
+        " " let l:rhs = substitute(l:rhs, '^\*\ \?', '','g')
+        " " echon l:lhs." | "
+        " let l:sublhs = substitute(l:lhs,'<','\\<','g')
+        " let l:sublhs = substitute(l:sublhs, '"','\\"','g')
+        " let l:lhs_echo = ToEscapedKey(l:sublhs)
+        " " echon " | ".l:lhs_echo
+
+        " if match(l:lhs_echo, '^\C'.l:lhs_echo_0) != -1
+            " return 1
+        " endif
+
+    " endfor
+    " return 0
+" endfunction
+
+
 function! ToEscapedKey(str)
     exec 'redir => l:result | silent! echo "'.a:str.'" | redir END'
     " echon '---' l:result
+    let l:result = substitute(l:result, '^\n' , '', 'g')
     return l:result
 endfunction
 
-function! Mapkeyn(lhs, mode)
+function! MapArg(lhs, mode)
     " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
     exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
-    exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
+    " let l:lhs0 = substitute(a:lhs, '')
 
+    exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
+    let l:lhs_echo_0 = substitute(l:lhs_echo_0, '^\n' , '', 'g')
     " echon " 0=" . l:lhs_echo_0
 
     for l:map in split(l:mappings, '\n')
-        let l:map = substitute(l:map, '^[a-z]*\s\+','','g')
+        let l:map = substitute(l:map, '^[a-z!]*\s\+','','g')
         let l:lhs = split(l:map, '\s\+')[0]
         " let l:rhs = split(l:map, '\s\+')[1]
 
         " let l:rhs = substitute(l:rhs, '^\*\ \?', '','g')
-        " echon l:lhs." | "
-        let l:sublhs =substitute(l:lhs,'<','\\<','g')
+        let l:sublhs = substitute(l:lhs, '\\','\\\\','g')
+        let l:sublhs = substitute(l:sublhs,'<','\\<','g')
         let l:sublhs = substitute(l:sublhs, '"','\\"','g')
         let l:lhs_echo = ToEscapedKey(l:sublhs)
-        " echon " | ".l:lhs_echo
+        " echon "|".l:lhs." : ".l:sublhs.":"
+        " echon " ".l:lhs_echo."\n"
 
-        if l:lhs_echo == l:lhs_echo_0
+        if l:lhs_echo ==# l:lhs_echo_0
             let l:map_dict = maparg(l:lhs, a:mode, 0, 1)
             " echo "this one" l:rhs
             if get(l:map_dict, 'expr', 0)
@@ -1259,6 +1335,7 @@ function! Mapkeyn(lhs, mode)
             else
                 let l:rhs = maparg(l:lhs, a:mode)
             endif
+            " echon "【left】".l:lhs."【right】".l:rhs
             return l:rhs
         endif
 
@@ -1268,32 +1345,35 @@ endfunction
 
 
 
-function! MapMatch(lhs, mode)
+function! MapCheck(lhs, mode)
     " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
     exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
     exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
-
+    let l:lhs_echo_0 = substitute(l:lhs_echo_0, '^\n' , '', 'g')
     " echon " 0=" . l:lhs_echo_0
 
     for l:map in split(l:mappings, '\n')
-        let l:map = substitute(l:map, '^[a-z]*\s\+','','g')
+        let l:map = substitute(l:map, '^[a-z!]*\s\+','','g')
         let l:lhs = split(l:map, '\s\+')[0]
         " let l:rhs = split(l:map, '\s\+')[1]
 
         " let l:rhs = substitute(l:rhs, '^\*\ \?', '','g')
         " echon l:lhs." | "
-        let l:sublhs =substitute(l:lhs,'<','\\<','g')
+        let l:sublhs = substitute(l:lhs, '\\','\\\\','g')
+        let l:sublhs = substitute(l:sublhs,'<','\\<','g')
         let l:sublhs = substitute(l:sublhs, '"','\\"','g')
         let l:lhs_echo = ToEscapedKey(l:sublhs)
         " echon " | ".l:lhs_echo
 
-        if match(l:lhs_echo, '^'.l:lhs_echo_0) != -1
+        if match(l:lhs_echo, '^\C'.l:lhs_echo_0) != -1
+            echon l:map
             return 1
         endif
 
     endfor
     return 0
 endfunction
+
 
 
 function! s:wait_for_user_input(mode)
@@ -1336,23 +1416,38 @@ function! s:wait_for_user_input(mode)
     "       imap jj JJ
     "       imap jjj JJJ
     " will always trigger the 'jj' mapping
-    if s:from_mode ==# 'i' && mapcheck(s:char, "i") != ""
-        let map_dict = {}
+    " if s:from_mode ==# 'i' && mapcheck(s:char, "i") != ""
+    if s:from_mode ==# 'i' && MapCheck(s:char, "i") != 0
+        " let map_dict = {}
         let s_time = s:get_time_in_ms()
         while 1
-            let map_dict = maparg(s:char, "i", 0, 1)
+            " let map_dict = maparg(s:char, "i", 0, 1)
+            " " break if chars exactly match mapping or if chars don't match beging of mapping anymore
+            " if map_dict != {} || mapcheck(s:char, "i") == ""
+                " if get(map_dict, 'expr', 0)
+                    " " handle case where {rhs} is a function
+                    " exec 'let char_mapping = ' . map_dict['rhs']
+                " else
+                    " let char_mapping = maparg(s:char, "i")
+                " endif
+                " " handle case where mapping is <esc>
+                " exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+                " break
+            " endif
+
+            let char_mapping =  MapArg(s:char, 'i')
+
+            echon "【char_mapping】".char_mapping
             " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-            if map_dict != {} || mapcheck(s:char, "i") == ""
-                if get(map_dict, 'expr', 0)
-                    " handle case where {rhs} is a function
-                    exec 'let char_mapping = ' . map_dict['rhs']
-                else
-                    let char_mapping = maparg(s:char, "i")
-                endif
+            if char_mapping != "" || MapCheck(s:char, 'i') == 0
+                echon " before_subs【".s:char."】"
                 " handle case where mapping is <esc>
                 exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+                echon " after_subs【".s:char."】"
                 break
             endif
+
+
             if s:get_time_in_ms() > (s_time + &timeoutlen)
                 break
             endif
@@ -1369,16 +1464,16 @@ function! s:wait_for_user_input(mode)
     elseif s:from_mode ==# 'n' || s:from_mode =~# 'v\|V'
         echon " before_getchar【".s:char."】"
 
-        if MapMatch(s:char, s:from_mode)
-            let map_dict = {}
+        if MapCheck(s:char, s:from_mode)
+            " let map_dict = {}
             let s_time = s:get_time_in_ms()
             while 1
 
-                let char_mapping =  Mapkeyn(s:char, s:from_mode)
+                let char_mapping =  MapArg(s:char, s:from_mode)
 
                 echon "【char_mapping】".char_mapping
                 " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-                if char_mapping != "" || MapMatch(s:char, s:from_mode) == 0
+                if char_mapping != "" || MapCheck(s:char, s:from_mode) == 0
                     echon " before_subs【".s:char."】"
                     " handle case where mapping is <esc>
                     exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
