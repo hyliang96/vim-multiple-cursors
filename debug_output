@@ -1,0 +1,5607 @@
+
+ start 【】
+ start error 【】
+ error2 【】
+ after error 【】
+ brefore retry : s:char=【】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * gE
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>#4】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * gE
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>#4】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * E
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>%i】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * E
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>%i】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】gE
+【char_mapping】gE
+ before_subs【^[b】
+ after_subs【gE】
+【after get esc】
+ after_if【gE】
+ before_exit【gE】
+ after_exit【gE】
+is_special_key = 0
+ before start_loop【gE】
+ after start_loop【gE】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【gE】
+ type(c)=【0】
+ before 【gE<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【gE】
+ start error 【gE】
+ error2 【gE】
+ after error 【gE】
+ brefore retry : s:char=【gE】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】gE
+【char_mapping】gE
+ before_subs【^[b】
+ after_subs【gE】
+【after get esc】
+ after_if【gE】
+ before_exit【gE】
+ after_exit【gE】
+is_special_key = 0
+ before start_loop【gE】
+ after start_loop【gE】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【gE】
+ type(c)=【0】
+ before 【gE<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【gE】
+ start error 【gE】
+ error2 【gE】
+ after error 【gE】
+ brefore retry : s:char=【gE】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】E
+【char_mapping】E
+ before_subs【^[f】
+ after_subs【E】
+【after get esc】
+ after_if【E】
+ before_exit【E】
+ after_exit【E】
+is_special_key = 0
+ before start_loop【E】
+ after start_loop【E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【E】
+ type(c)=【0】
+ before 【E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【E】
+ start error 【E】
+ error2 【E】
+ after error 【E】
+ brefore retry : s:char=【E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】E
+【char_mapping】E
+ before_subs【^[f】
+ after_subs【E】
+【after get esc】
+ after_if【E】
+ before_exit【E】
+ after_exit【E】
+is_special_key = 0
+ before start_loop【E】
+ after start_loop【E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【E】
+ type(c)=【0】
+ before 【E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【E】
+ start error 【E】
+ error2 【E】
+ after error 【E】
+ brefore retry : s:char=【E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】E
+【char_mapping】E
+ before_subs【^[f】
+ after_subs【E】
+【after get esc】
+ after_if【E】
+ before_exit【E】
+ after_exit【E】
+is_special_key = 0
+ before start_loop【E】
+ after start_loop【E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【E】
+ type(c)=【0】
+ before 【E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【E】
+ start error 【E】
+ error2 【E】
+ after error 【E】
+ brefore retry : s:char=【E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * 0<C-U>
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * $<C-D>
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * 0<C-U>
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * 0<C-U>
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * $<C-D>
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * $<C-D>
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * 0<C-U>
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * gg
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fc>^D<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * gg
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fc>^D<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * G$
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fc>^D<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * G$
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fc>^D<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>,】
+ before_getchar【<80><fd>,】
+【l:map】<LeftMouse> * <Esc>:MarkClear<CR><LeftMouse>
+【after get esc】
+ after_if【<80><fd>,】
+ before_exit【<80><fd>,】
+ after_exit【<80><fd>,】
+is_special_key = 0
+ before start_loop【<80><fd>,】
+ after start_loop【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>,<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>,】
+ start error 【<80><fd>,】
+ error2 【<80><fd>,】
+ after error 【<80><fd>,】
+ brefore retry : s:char=【<80><fd>,】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>.】
+ before_getchar【<80><fd>.】
+【l:map】<Plug>(multiple-cursors-new-word) * :<C-U>call multiple_cursors#new('v', 1)<CR>
+【after get esc】
+ after_if【<80><fd>.】
+ before_exit【<80><fd>.】
+ after_exit【<80><fd>.】
+is_special_key = 0
+ before start_loop【<80><fd>.】
+ after start_loop【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>.<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>.】
+ start error 【<80><fd>.】
+ error2 【<80><fd>.】
+ after error 【<80><fd>.】
+ brefore retry : s:char=【<80><fd>.】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * 0<C-U>
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * $<C-D>
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * gg
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fc>^D<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * G$
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fc>^D<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>,】
+ before_getchar【<80><fd>,】
+【l:map】<LeftMouse> * :MarkClear<CR><LeftMouse>
+【after get esc】
+ after_if【<80><fd>,】
+ before_exit【<80><fd>,】
+ after_exit【<80><fd>,】
+is_special_key = 0
+ before start_loop【<80><fd>,】
+ after start_loop【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>,<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>,】
+ start error 【<80><fd>,】
+ error2 【<80><fd>,】
+ after error 【<80><fd>,】
+ brefore retry : s:char=【<80><fd>,】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>.】
+ before_getchar【<80><fd>.】
+【l:map】<Plug>(multiple-cursors-new-word) * :<C-U>call multiple_cursors#new('v', 1)<CR>
+【after get esc】
+ after_if【<80><fd>.】
+ before_exit【<80><fd>.】
+ after_exit【<80><fd>.】
+is_special_key = 0
+ before start_loop【<80><fd>.】
+ after start_loop【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>.<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>.】
+ start error 【<80><fd>.】
+ error2 【<80><fd>.】
+ after error 【<80><fd>.】
+ brefore retry : s:char=【<80><fd>.】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * 0
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kh】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * $
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>@7】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】gE
+【char_mapping】gE
+ before_subs【^[b】
+ after_subs【gE】
+【after get esc】
+ after_if【gE】
+ before_exit【gE】
+ after_exit【gE】
+is_special_key = 0
+ before start_loop【gE】
+ after start_loop【gE】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【gE】
+ type(c)=【0】
+ before 【gE<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【gE】
+ start error 【gE】
+ error2 【gE】
+ after error 【gE】
+ brefore retry : s:char=【gE】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】gE
+【char_mapping】gE
+ before_subs【^[b】
+ after_subs【gE】
+【after get esc】
+ after_if【gE】
+ before_exit【gE】
+ after_exit【gE】
+is_special_key = 0
+ before start_loop【gE】
+ after start_loop【gE】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【gE】
+ type(c)=【0】
+ before 【gE<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【gE】
+ start error 【gE】
+ error2 【gE】
+ after error 【gE】
+ brefore retry : s:char=【gE】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】gE
+【char_mapping】gE
+ before_subs【^[b】
+ after_subs【gE】
+【after get esc】
+ after_if【gE】
+ before_exit【gE】
+ after_exit【gE】
+is_special_key = 0
+ before start_loop【gE】
+ after start_loop【gE】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【gE】
+ type(c)=【0】
+ before 【gE<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【gE】
+ start error 【gE】
+ error2 【gE】
+ after error 【gE】
+ brefore retry : s:char=【gE】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】gE
+【char_mapping】gE
+ before_subs【^[b】
+ after_subs【gE】
+【after get esc】
+ after_if【gE】
+ before_exit【gE】
+ after_exit【gE】
+is_special_key = 0
+ before start_loop【gE】
+ after start_loop【gE】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【gE】
+ type(c)=【0】
+ before 【gE<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【gE】
+ start error 【gE】
+ error2 【gE】
+ after error 【gE】
+ brefore retry : s:char=【gE】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】E
+【char_mapping】E
+ before_subs【^[f】
+ after_subs【E】
+【after get esc】
+ after_if【E】
+ before_exit【E】
+ after_exit【E】
+is_special_key = 0
+ before start_loop【E】
+ after start_loop【E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【E】
+ type(c)=【0】
+ before 【E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【E】
+ start error 【E】
+ error2 【E】
+ after error 【E】
+ brefore retry : s:char=【E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】E
+【char_mapping】E
+ before_subs【^[f】
+ after_subs【E】
+【after get esc】
+ after_if【E】
+ before_exit【E】
+ after_exit【E】
+is_special_key = 0
+ before start_loop【E】
+ after start_loop【E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【E】
+ type(c)=【0】
+ before 【E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【E】
+ start error 【E】
+ error2 【E】
+ after error 【E】
+ brefore retry : s:char=【E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * gE
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>#4】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * gE
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>#4】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * gE
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>#4】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * E
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>%i】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * E
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>%i】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * E
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>%i】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【1】
+ c 【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【<80>kd】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【<80>kd】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【<80>kd】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kd】
+ before_getchar【<80>kd】
+【after get esc】
+ after_if【<80>kd】
+ before_exit【<80>kd】
+ after_exit【<80>kd】
+is_special_key = 0
+ before start_loop【<80>kd】
+ after start_loop【<80>kd】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kd】
+ type(c)=【0】
+ before 【<80>kd<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kd】
+ start error 【<80>kd】
+ error2 【<80>kd】
+ after error 【<80>kd】
+ brefore retry : s:char=【<80>kd】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kP】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kN】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kP】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kP】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kN】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kN】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kN】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kP】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>,】
+ before_getchar【<80><fd>,】
+【l:map】<LeftMouse> * :MarkClear<CR><LeftMouse>
+【after get esc】
+ after_if【<80><fd>,】
+ before_exit【<80><fd>,】
+ after_exit【<80><fd>,】
+is_special_key = 0
+ before start_loop【<80><fd>,】
+ after start_loop【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>,<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>,】
+ start error 【<80><fd>,】
+ error2 【<80><fd>,】
+ after error 【<80><fd>,】
+ brefore retry : s:char=【<80><fd>,】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>.】
+ before_getchar【<80><fd>.】
+【l:map】<Plug>(multiple-cursors-new-word) * :<C-U>call multiple_cursors#new('v', 1)<CR>
+【after get esc】
+ after_if【<80><fd>.】
+ before_exit【<80><fd>.】
+ after_exit【<80><fd>.】
+is_special_key = 0
+ before start_loop【<80><fd>.】
+ after start_loop【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>.<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>.】
+ start error 【<80><fd>.】
+ error2 【<80><fd>.】
+ after error 【<80><fd>.】
+ brefore retry : s:char=【<80><fd>.】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【v】
+ before_getchar【v】
+【after get esc】
+ after_if【v】
+ before_exit【v】
+ after_exit【v】
+is_special_key = 0
+ before start_loop【v】
+ after start_loop【v】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【v】
+ type(c)=【0】
+ before 【v<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【v】
+ start error 【v】
+ error2 【v】
+ after error 【v】
+ brefore retry : s:char=【v】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【v】
+ before_getchar【v】
+【after get esc】
+ after_if【v】
+ before_exit【v】
+ after_exit【v】
+is_special_key = 0
+ before start_loop【v】
+ after start_loop【v】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【v】
+ type(c)=【0】
+ before 【v<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【v】
+ start error 【v】
+ error2 【v】
+ after error 【v】
+ brefore retry : s:char=【v】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【i】
+ before_getchar【i】
+【after get esc】
+ after_if【i】
+ before_exit【i】
+ after_exit【i】
+is_special_key = 0
+ before start_loop【i】
+ after start_loop【i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【i】
+ type(c)=【0】
+ before 【i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【i】
+ start error 【i】
+ error2 【i】
+ after error 【i】
+ brefore retry : s:char=【i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】<Esc>gEa
+【char_mapping】<Esc>gEa
+ before_subs【^[b】
+ after_subs【^[gEa】
+【after get esc】
+ after_if【^[gEa】
+ before_exit【^[gEa】
+ after_exit【^[gEa】
+is_special_key = 0
+ before start_loop【^[gEa】
+ after start_loop【^[gEa】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【^[b^[b】
+ type(c)=【0】
+ before 【^[gEa<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【^[b^[b】
+ start 【^[gEa】
+ start error 【^[gEa】
+ error2 【^[gEa】
+ after error 【^[gEa】
+ brefore retry : s:char=【^[gEa】
+ s:retry_keys=【】
+ s:saved_keys=【^[b^[b】
+ before_if【^[b^[b】
+ before_getchar【^[b^[b】
+【after get esc】
+ after_if【^[b^[b】
+ before_exit【^[b^[b】
+ after_exit【^[b^[b】
+is_special_key = 0
+ before start_loop【^[b^[b】
+ after start_loop【^[b^[b】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【^[b^[b<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【^[b^[b】
+ start error 【^[b^[b】
+ error2 【^[b^[b】
+ after error 【^[b^[b】
+ brefore retry : s:char=【^[b^[b】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>b【right】<Esc>gEa
+【char_mapping】<Esc>gEa
+ before_subs【^[b】
+ after_subs【^[gEa】
+【after get esc】
+ after_if【^[gEa】
+ before_exit【^[gEa】
+ after_exit【^[gEa】
+is_special_key = 0
+ before start_loop【^[gEa】
+ after start_loop【^[gEa】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【^[gEa<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【^[gEa】
+ start error 【^[gEa】
+ error2 【^[gEa】
+ after error 【^[gEa】
+ brefore retry : s:char=【^[gEa】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】<Esc>Ea
+【char_mapping】<Esc>Ea
+ before_subs【^[f】
+ after_subs【^[Ea】
+【after get esc】
+ after_if【^[Ea】
+ before_exit【^[Ea】
+ after_exit【^[Ea】
+is_special_key = 0
+ before start_loop【^[Ea】
+ after start_loop【^[Ea】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【^[Ea<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【^[Ea】
+ start error 【^[Ea】
+ error2 【^[Ea】
+ after error 【^[Ea】
+ brefore retry : s:char=【^[Ea】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【left】<Esc>f【right】<Esc>Ea
+【char_mapping】<Esc>Ea
+ before_subs【^[f】
+ after_subs【^[Ea】
+【after get esc】
+ after_if【^[Ea】
+ before_exit【^[Ea】
+ after_exit【^[Ea】
+is_special_key = 0
+ before start_loop【^[Ea】
+ after start_loop【^[Ea】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【^[Ea<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【^[Ea】
+ start error 【^[Ea】
+ error2 【^[Ea】
+ after error 【^[Ea】
+ brefore retry : s:char=【^[Ea】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * <Esc>Ea
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * <Esc>Ea
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * <Esc>0<C-U>i
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * <Esc>$<C-D>i
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * <Esc>$<C-D>i
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * <Esc>$<C-D>i
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * 0<C-U>
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【 】
+ before_getchar【 】
+【l:map】<Space>     * @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>  " 用空格键来<开>关折叠
+【after get esc】
+ after_if【 】
+ before_exit【 】
+ after_exit【 】
+is_special_key = 0
+ before start_loop【 】
+ after start_loop【 】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【 】
+ type(c)=【0】
+ before 【 <80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【 】
+ start error 【 】
+ error2 【 】
+ after error 【 】
+ brefore retry : s:char=【 】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【i】
+ before_getchar【i】
+【after get esc】
+ after_if【i】
+ before_exit【i】
+ after_exit【i】
+is_special_key = 0
+ before start_loop【i】
+ after start_loop【i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【i】
+ type(c)=【0】
+ before 【i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【i】
+ start error 【i】
+ error2 【i】
+ after error 【i】
+ brefore retry : s:char=【i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * <Esc>$<C-D>i
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * <Esc>$<C-D>i
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^E】
+ before_getchar【<80><fd>^E】
+【l:map】<S-Down>    * $<C-D>
+【after get esc】
+ after_if【<80><fd>^E】
+ before_exit【<80><fd>^E】
+ after_exit【<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fd>^E】
+ after start_loop【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80><fd>^E】
+ type(c)=【0】
+ before 【<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^E】
+ start error 【<80><fd>^E】
+ error2 【<80><fd>^E】
+ after error 【<80><fd>^E】
+ brefore retry : s:char=【<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>ku】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【 】
+ before_getchar【 】
+【l:map】<Space>     * @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>  " 用空格键来<开>关折叠
+【after get esc】
+ after_if【 】
+ before_exit【 】
+ after_exit【 】
+is_special_key = 0
+ before start_loop【 】
+ after start_loop【 】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【 】
+ type(c)=【0】
+ before 【 <80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【 】
+ start error 【 】
+ error2 【 】
+ after error 【 】
+ brefore retry : s:char=【 】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【i】
+ before_getchar【i】
+【after get esc】
+ after_if【i】
+ before_exit【i】
+ after_exit【i】
+is_special_key = 0
+ before start_loop【i】
+ after start_loop【i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【i】
+ type(c)=【0】
+ before 【i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【i】
+ start error 【i】
+ error2 【i】
+ after error 【i】
+ brefore retry : s:char=【i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * <Esc>0<C-U>i
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>^D】
+ before_getchar【<80><fd>^D】
+【l:map】<S-Up>      * <Esc>0<C-U>i
+【after get esc】
+ after_if【<80><fd>^D】
+ before_exit【<80><fd>^D】
+ after_exit【<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fd>^D】
+ after start_loop【<80><fd>^D】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>^D】
+ start error 【<80><fd>^D】
+ error2 【<80><fd>^D】
+ after error 【<80><fd>^D】
+ brefore retry : s:char=【<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * <Esc>ggi
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * <Esc>G$a
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>,】
+ before_getchar【<80><fd>,】
+【l:map】<LeftMouse> * <C-O>:MarkClear<CR><LeftMouse>
+【after get esc】
+ after_if【<80><fd>,】
+ before_exit【<80><fd>,】
+ after_exit【<80><fd>,】
+is_special_key = 0
+ before start_loop【<80><fd>,】
+ after start_loop【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>,<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>,】
+ start error 【<80><fd>,】
+ error2 【<80><fd>,】
+ after error 【<80><fd>,】
+ brefore retry : s:char=【<80><fd>,】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>.】
+ before_getchar【<80><fd>.】
+【l:map】<Plug>(multiple-cursors-wait) * <C-O>:call <SNR>63_wait_for_user_input('')<CR>
+【after get esc】
+ after_if【<80><fd>.】
+ before_exit【<80><fd>.】
+ after_exit【<80><fd>.】
+is_special_key = 0
+ before start_loop【<80><fd>.】
+ after start_loop【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>.<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>.】
+ start error 【<80><fd>.】
+ error2 【<80><fd>.】
+ after error 【<80><fd>.】
+ brefore retry : s:char=【<80><fd>.】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>@7】
+ before_getchar【<80>@7】
+【l:map】<End>       * <Esc>$a
+【after get esc】
+ after_if【<80>@7】
+ before_exit【<80>@7】
+ after_exit【<80>@7】
+is_special_key = 0
+ before start_loop【<80>@7】
+ after start_loop【<80>@7】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>@7<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>@7】
+ start error 【<80>@7】
+ error2 【<80>@7】
+ after error 【<80>@7】
+ brefore retry : s:char=【<80>@7】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kP】
+ before_getchar【<80>kP】
+【l:map】<PageUp>    * <C-O>z^
+【after get esc】
+ after_if【<80>kP】
+ before_exit【<80>kP】
+ after_exit【<80>kP】
+is_special_key = 0
+ before start_loop【<80>kP】
+ after start_loop【<80>kP】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kP<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kP】
+ start error 【<80>kP】
+ error2 【<80>kP】
+ after error 【<80>kP】
+ brefore retry : s:char=【<80>kP】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kh】
+ before_getchar【<80>kh】
+【l:map】<Home>      * <Esc>0i
+【after get esc】
+ after_if【<80>kh】
+ before_exit【<80>kh】
+ after_exit【<80>kh】
+is_special_key = 0
+ before start_loop【<80>kh】
+ after start_loop【<80>kh】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kh<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kh】
+ start error 【<80>kh】
+ error2 【<80>kh】
+ after error 【<80>kh】
+ brefore retry : s:char=【<80>kh】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kN】
+ before_getchar【<80>kN】
+【l:map】<PageDown>  * <C-O>z+
+【after get esc】
+ after_if【<80>kN】
+ before_exit【<80>kN】
+ after_exit【<80>kN】
+is_special_key = 0
+ before start_loop【<80>kN】
+ after start_loop【<80>kN】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kN<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kN】
+ start error 【<80>kN】
+ error2 【<80>kN】
+ after error 【<80>kN】
+ brefore retry : s:char=【<80>kN】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * <Esc>Ea
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * <Esc>Ea
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * <Esc>Ea
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>%i】
+ before_getchar【<80>%i】
+【l:map】<S-Right>   * <Esc>Ea
+【after get esc】
+ after_if【<80>%i】
+ before_exit【<80>%i】
+ after_exit【<80>%i】
+is_special_key = 0
+ before start_loop【<80>%i】
+ after start_loop【<80>%i】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>%i<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>%i】
+ start error 【<80>%i】
+ error2 【<80>%i】
+ after error 【<80>%i】
+ brefore retry : s:char=【<80>%i】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>#4】
+ before_getchar【<80>#4】
+【l:map】<S-Left>    * <Esc>gEa
+【after get esc】
+ after_if【<80>#4】
+ before_exit【<80>#4】
+ after_exit【<80>#4】
+is_special_key = 0
+ before start_loop【<80>#4】
+ after start_loop【<80>#4】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>#4<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>#4】
+ start error 【<80>#4】
+ error2 【<80>#4】
+ after error 【<80>#4】
+ brefore retry : s:char=【<80>#4】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * <Esc>G$a
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * <Esc>G$a
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^E】
+ before_getchar【<80><fc>^D<80><fd>^E】
+【l:map】<C-S-Down>  * <Esc>G$a
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^E】
+ before_exit【<80><fc>^D<80><fd>^E】
+ after_exit【<80><fc>^D<80><fd>^E】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^E】
+ after start_loop【<80><fc>^D<80><fd>^E】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^E<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^E】
+ start error 【<80><fc>^D<80><fd>^E】
+ error2 【<80><fc>^D<80><fd>^E】
+ after error 【<80><fc>^D<80><fd>^E】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^E】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * <Esc>ggi
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * <Esc>ggi
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * <Esc>ggi
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fc>^D<80><fd>^D】
+ before_getchar【<80><fc>^D<80><fd>^D】
+【l:map】<C-S-Up>    * <Esc>ggi
+【after get esc】
+ after_if【<80><fc>^D<80><fd>^D】
+ before_exit【<80><fc>^D<80><fd>^D】
+ after_exit【<80><fc>^D<80><fd>^D】
+is_special_key = 0
+ before start_loop【<80><fc>^D<80><fd>^D】
+ after start_loop【<80><fc>^D<80><fd>^D】
+ type(c)=【1】
+ c 【<80><fc>^D】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fc>^D<80><fd>^D<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fc>^D<80><fd>^D】
+ start error 【<80><fc>^D<80><fd>^D】
+ error2 【<80><fc>^D<80><fd>^D】
+ after error 【<80><fc>^D<80><fd>^D】
+ brefore retry : s:char=【<80><fc>^D<80><fd>^D】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>,】
+ before_getchar【<80><fd>,】
+【l:map】<LeftMouse> * <C-O>:MarkClear<CR><LeftMouse>
+【after get esc】
+ after_if【<80><fd>,】
+ before_exit【<80><fd>,】
+ after_exit【<80><fd>,】
+is_special_key = 0
+ before start_loop【<80><fd>,】
+ after start_loop【<80><fd>,】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>,<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>,】
+ start error 【<80><fd>,】
+ error2 【<80><fd>,】
+ after error 【<80><fd>,】
+ brefore retry : s:char=【<80><fd>,】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80><fd>.】
+ before_getchar【<80><fd>.】
+【l:map】<Plug>(multiple-cursors-wait) * <C-O>:call <SNR>63_wait_for_user_input('')<CR>
+【after get esc】
+ after_if【<80><fd>.】
+ before_exit【<80><fd>.】
+ after_exit【<80><fd>.】
+is_special_key = 0
+ before start_loop【<80><fd>.】
+ after start_loop【<80><fd>.】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>.<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80><fd>.】
+ start error 【<80><fd>.】
+ error2 【<80><fd>.】
+ after error 【<80><fd>.】
+ brefore retry : s:char=【<80><fd>.】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【 】
+ before_getchar【 】
+【after get esc】
+ after_if【 】
+ before_exit【 】
+ after_exit【 】
+is_special_key = 0
+ before start_loop【 】
+ after start_loop【 】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【 <80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【 】
+ start error 【 】
+ error2 【 】
+ after error 【 】
+ brefore retry : s:char=【 】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kb】
+ before_getchar【<80>kb】
+【after get esc】
+ after_if【<80>kb】
+ before_exit【<80>kb】
+ after_exit【<80>kb】
+is_special_key = 0
+ before start_loop【<80>kb】
+ after start_loop【<80>kb】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kb<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kb】
+ start error 【<80>kb】
+ error2 【<80>kb】
+ after error 【<80>kb】
+ brefore retry : s:char=【<80>kb】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+ before_subs【^[<80>kl】
+ after_subs【】
+【after get esc】
+ after_if【】
+ before_exit【】
+ after_exit【】
+is_special_key = 0
+ before start_loop【】
+ after start_loop【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【】
+ start error 【】
+ error2 【】
+ after error 【】
+ brefore retry : s:char=【】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>ku】
+ before_getchar【<80>ku】
+【after get esc】
+ after_if【<80>ku】
+ before_exit【<80>ku】
+ after_exit【<80>ku】
+is_special_key = 0
+ before start_loop【<80>ku】
+ after start_loop【<80>ku】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>ku<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>ku】
+ start error 【<80>ku】
+ error2 【<80>ku】
+ after error 【<80>ku】
+ brefore retry : s:char=【<80>ku】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【v】
+ before_getchar【v】
+【after get esc】
+ after_if【v】
+ before_exit【v】
+ after_exit【v】
+is_special_key = 0
+ before start_loop【v】
+ after start_loop【v】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【v<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【v】
+ start error 【v】
+ error2 【v】
+ after error 【v】
+ brefore retry : s:char=【v】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kb】
+ before_getchar【<80>kb】
+【after get esc】
+ after_if【<80>kb】
+ before_exit【<80>kb】
+ after_exit【<80>kb】
+is_special_key = 0
+ before start_loop【<80>kb】
+ after start_loop【<80>kb】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kb<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kb】
+ start error 【<80>kb】
+ error2 【<80>kb】
+ after error 【<80>kb】
+ brefore retry : s:char=【<80>kb】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+ before_subs【^[<80>kl】
+ after_subs【】
+【after get esc】
+ after_if【】
+ before_exit【】
+ after_exit【】
+is_special_key = 0
+ before start_loop【】
+ after start_loop【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【】
+ start error 【】
+ error2 【】
+ after error 【】
+ brefore retry : s:char=【】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【v】
+ before_getchar【v】
+【after get esc】
+ after_if【v】
+ before_exit【v】
+ after_exit【v】
+is_special_key = 0
+ before start_loop【v】
+ after start_loop【v】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【v<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【v】
+ start error 【v】
+ error2 【v】
+ after error 【v】
+ brefore retry : s:char=【v】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kb】
+ before_getchar【<80>kb】
+【after get esc】
+ after_if【<80>kb】
+ before_exit【<80>kb】
+ after_exit【<80>kb】
+is_special_key = 0
+ before start_loop【<80>kb】
+ after start_loop【<80>kb】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【<80>kb<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kb】
+ start error 【<80>kb】
+ error2 【<80>kb】
+ after error 【<80>kb】
+ brefore retry : s:char=【<80>kb】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc><Esc>[6~ * <C-O><C-W>j
+【char_mapping】
+ before_subs【^[^[^[】
+ after_subs【】
+【after get esc】
+ after_if【】
+ before_exit【】
+ after_exit【】
+is_special_key = 0
+ before start_loop【】
+ after start_loop【】
+ type(c)=【0】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【^[】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【^[】
+ start 【】
+ start error 【】
+ error2 【】
+ after error 【】
+ brefore retry : s:char=【】
+ s:retry_keys=【】
+ s:saved_keys=【^[】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【after get esc】
+ after_if【^[】
+ before_exit【^[】
+ after_exit【^[】
+is_special_key = 0
+ before start_loop【^[】
+ after start_loop【^[】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ type(c)=【0】
+ before 【^[<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【^[】
+ start error 【^[】
+ error2 【^[】
+ after error 【^[】
+ brefore retry : s:char=【^[】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc><Esc>[6~ * <C-W>j
+【char_mapping】
+ before_subs【^[^[^[】
+ after_subs【】
+【after get esc】
+ after_if【】
+ before_exit【】
+ after_exit【】
+is_special_key = 0
+ before start_loop【】
+ after start_loop【】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【^[^[^[^[^[】
+ before apply【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【^[^[^[^[^[】
+ start 【】
+ start error 【】
+ error2 【】
+ after error 【】
+ brefore retry : s:char=【】
+ s:retry_keys=【】
+ s:saved_keys=【^[^[^[^[^[】
+ before_if【^[^[^[^[^[】
+ before_getchar【^[^[^[^[^[】
+【after get esc】
+ after_if【^[^[^[^[^[】
+ before_exit【^[^[^[^[^[】
+ after_exit【^[^[^[^[^[】
+is_special_key = 0
+ before start_loop【^[^[^[^[^[】
+ after start_loop【^[^[^[^[^[】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【^[^[^[^[^[】
+ type(c)=【0】
+ before 【^[^[^[^[^[<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【^[^[^[^[^[】
+ start error 【^[^[^[^[^[】
+ error2 【^[^[^[^[^[】
+ after error 【^[^[^[^[^[】
+ brefore retry : s:char=【^[^[^[^[^[】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【^[】
+ before_getchar【^[】
+【l:map】<Esc>[4~      <End>
+【get esc】
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+【l:map】<Esc>[4~      <End>
+【char_mapping】
+ before_subs【^[<80>kr】
+ after_subs【】
+【after get esc】
+ after_if【】
+ before_exit【】
+ after_exit【】
+is_special_key = 0
+ before start_loop【】
+ after start_loop【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【】
+ start error 【】
+ error2 【】
+ after error 【】
+ brefore retry : s:char=【】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kl】
+ before_getchar【<80>kl】
+【after get esc】
+ after_if【<80>kl】
+ before_exit【<80>kl】
+ after_exit【<80>kl】
+is_special_key = 0
+ before start_loop【<80>kl】
+ after start_loop【<80>kl】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kl】
+ type(c)=【0】
+ before 【<80>kl<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kl】
+ start error 【<80>kl】
+ error2 【<80>kl】
+ after error 【<80>kl】
+ brefore retry : s:char=【<80>kl】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【 】
+ before_getchar【 】
+【l:map】<Space>     * @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>  " 用空格键来<开>关折叠
+【after get esc】
+ after_if【 】
+ before_exit【 】
+ after_exit【 】
+is_special_key = 0
+ before start_loop【 】
+ after start_loop【 】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【 】
+ type(c)=【0】
+ before 【 <80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【 】
+ start error 【 】
+ error2 【 】
+ after error 【 】
+ brefore retry : s:char=【 】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【<80>kr】
+ before_getchar【<80>kr】
+【after get esc】
+ after_if【<80>kr】
+ before_exit【<80>kr】
+ after_exit【<80>kr】
+is_special_key = 0
+ before start_loop【<80>kr】
+ after start_loop【<80>kr】
+ type(c)=【0】
+ before 【<80><fd>S(multiple-cursors-input)】
+ feedkesys s:saved_keys=【】
+ before apply【<80>kr】
+ type(c)=【0】
+ before 【<80>kr<80><fd>S(multiple-cursors-apply)】
+ feedkesys s:saved_keys=【】
+ start 【<80>kr】
+ start error 【<80>kr】
+ error2 【<80>kr】
+ after error 【<80>kr】
+ brefore retry : s:char=【<80>kr】
+ s:retry_keys=【】
+ s:saved_keys=【】
+ before_if【≈】
+ before_getchar【≈】
+【after get esc】
+ after_if【≈】
+ before_exit【≈】

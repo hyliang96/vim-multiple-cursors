@@ -1483,9 +1483,10 @@ function! s:wait_for_user_input(mode)
                 " sleep 50m
             " endif
         " endwhile
-    if match(s:char, "[\u80][\ufc]\<c-d>[\u80][\ufd]\<c-d>") != -1
-        call DebugPrint(" get <S-C-Up>【".s:char."】")
-    elseif s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
+    " if match(s:char, "[\u80][\ufc]\<c-d>[\u80][\ufd]\<c-d>") != -1
+        " call DebugPrint(" get <S-C-Up>【".s:char."】")
+    " else
+    if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
         call DebugPrint(" before_getchar【".s:char."】" )
         " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
         " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
@@ -1540,8 +1541,6 @@ function! s:wait_for_user_input(mode)
             call s:cm.reset(1, 1, 1)
             return
         endif
-
-
     endif
 
     call DebugPrint( " after_if【".s:char."】")
@@ -1550,44 +1549,40 @@ function! s:wait_for_user_input(mode)
 
     " Clears any echoes we might've added
     " normal! :<Esc>
-    if match(s:char, "[\u80][\ufc]\<c-d>[\u80][\ufd]\<c-d>") != -1
-        let is_special_key = 0
-    else
-        " add chars to s:char if it start like a special/quit key
-        let is_special_key = 0
-        let sk_list = get(s:special_keys, s:from_mode, [])
-        let is_special_key = (index(sk_list, s:char) != -1)
-        let is_quit_key = 0
-        let s_time = s:get_time_in_ms()
-        while 1
-            " tell if s:cahr is the begining part of a special key or the quit key
-            let start_special_key = (index(map(sk_list[:], 'v:val[0:len(s:char)-1] == s:char'), 1) > -1)
-            let start_quit_key = (g:multi_cursor_quit_key[0:len(s:char)-1] == s:char)
-            if start_special_key == 0 && start_quit_key == 0
+     " add chars to s:char if it start like a special/quit key
+    let is_special_key = 0
+    let sk_list = get(s:special_keys, s:from_mode, [])
+    let is_special_key = (index(sk_list, s:char) != -1)
+    let is_quit_key = 0
+    let s_time = s:get_time_in_ms()
+    while 1
+        " tell if s:cahr is the begining part of a special key or the quit key
+        let start_special_key = (index(map(sk_list[:], 'v:val[0:len(s:char)-1] == s:char'), 1) > -1)
+        let start_quit_key = (g:multi_cursor_quit_key[0:len(s:char)-1] == s:char)
+        if start_special_key == 0 && start_quit_key == 0
+            break
+        else
+            let is_special_key = (index(sk_list, s:char) != -1)
+            let is_quit_key = (g:multi_cursor_quit_key == s:char)
+            " let is_quit_key = (g:multi_cursor_quit_key == s:last_char())
+            " if is_quit_key == 1
+                " s:char = g:multi_cursor_quit_key
+            " endif
+
+            if is_special_key == 1 || is_quit_key == 1
                 break
             else
-                let is_special_key = (index(sk_list, s:char) != -1)
-                let is_quit_key = (g:multi_cursor_quit_key == s:char)
-                " let is_quit_key = (g:multi_cursor_quit_key == s:last_char())
-                " if is_quit_key == 1
-                    " s:char = g:multi_cursor_quit_key
-                " endif
-
-                if is_special_key == 1 || is_quit_key == 1
+                if s:get_time_in_ms() > (s_time + &timeoutlen)
                     break
-                else
-                    if s:get_time_in_ms() > (s_time + &timeoutlen)
-                        break
-                    endif
-                    let new_char = s:get_char(0)
-                    let s:char .= new_char
-                    if new_char == ''
-                        sleep 50m
-                    endif
                 endif
-            end
-        endwhile
-    endif
+                let new_char = s:get_char(0)
+                let s:char .= new_char
+                if new_char == ''
+                    sleep 50m
+                endif
+            endif
+        end
+    endwhile
 
     call DebugPrint(" before_exit【".s:char."】")
 
