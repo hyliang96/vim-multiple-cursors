@@ -890,6 +890,8 @@ function! s:feedkeys(keys)
     while 1
         let c = getchar(0)
         let char_type = type(c)
+        call DebugPrint(" type(c)=【".char_type."】")
+
         " Checking type is important, when strings are compared with integers,
         " strings are always converted to ints, and all strings are equal to 0
         if char_type == 0
@@ -899,9 +901,16 @@ function! s:feedkeys(keys)
                 let s:saved_keys .= nr2char(c)
             endif
         elseif char_type == 1 " char with more than 8 bits (as string)
+            call DebugPrint(" c 【".c."】")
+            if match(c, "[\u80][\ufc]\<C-D>") != -1
+                break
+            endif
             let s:saved_keys .= c
         endif
     endwhile
+    call DebugPrint(" before 【".a:keys."】")
+    call DebugPrint(" feedkesys s:saved_keys=【".s:saved_keys."】")
+
     call feedkeys(a:keys)
 endfunction
 
@@ -944,6 +953,7 @@ function! s:process_user_input()
     if s:from_mode ==# 'i' || s:to_mode ==# 'i'
         silent! undojoin | call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
     else
+        call DebugPrint(" before apply【".s:char."】")
         call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
     endif
 
@@ -1147,11 +1157,15 @@ endfunction
 let s:retry_keys = ""
 function! s:display_error()
     " echon " 1【".s:char."】"
+    call DebugPrint(" start error 【".s:char."】")
+
     if s:bad_input == s:cm.size()
                 \ && ((s:from_mode ==# 'n'      && has_key(g:multi_cursor_normal_maps, s:char[0]))
                 \ ||    (s:from_mode =~# 'v\|V' && has_key(g:multi_cursor_visual_maps, s:char[0])))
         " we couldn't replay it anywhere but we're told it's the beginning of a
         " multi-character map like the `d` in `dw`
+        call DebugPrint(" error1 【".s:char."】")
+
         let s:retry_keys = s:char
         " echohl ErrorMsg | echo " 2【".s:char."】" | echohl Normal
 
@@ -1166,6 +1180,7 @@ function! s:display_error()
             return 1
         endif
     else
+        call DebugPrint(" error2 【".s:char."】")
         let s:retry_keys = ""
         if s:bad_input > 0
             echohl ErrorMsg |
@@ -1296,6 +1311,9 @@ endfunction
     " return 0
 " endfunction
 
+function! DebugPrint(str)
+    redir >> debug_output | silent! echo a:str | redir END
+endfunction
 
 function! ToEscapedKey(str)
     exec 'redir => l:result | silent! echo "'.a:str.'" | redir END'
@@ -1335,7 +1353,7 @@ function! MapArg(lhs, mode)
             else
                 let l:rhs = maparg(l:lhs, a:mode)
             endif
-            " echon "【left】".l:lhs."【right】".l:rhs
+            call DebugPrint("【left】".l:lhs."【right】".l:rhs)
             return l:rhs
         endif
 
@@ -1366,7 +1384,7 @@ function! MapCheck(lhs, mode)
         " echon " | ".l:lhs_echo
 
         if match(l:lhs_echo, '^\C'.l:lhs_echo_0) != -1
-            echon l:map
+            call DebugPrint("【l:map】".l:map)
             return 1
         endif
 
@@ -1377,6 +1395,7 @@ endfunction
 
 
 function! s:wait_for_user_input(mode)
+    call DebugPrint(" start 【".s:char."】")
     " if return means clear the char buffer and restart the loop for waiting
     " for user input
     if s:display_error()
@@ -1384,6 +1403,8 @@ function! s:wait_for_user_input(mode)
         call s:feedkeys("\<Plug>(multiple-cursors-input)")
         return
     endif
+
+    call DebugPrint(" after error 【".s:char."】")
 
     let s:from_mode = a:mode
     if empty(a:mode)
@@ -1401,6 +1422,11 @@ function! s:wait_for_user_input(mode)
 
     call s:end_latency_measure()
 
+    call DebugPrint(" brefore retry : s:char=【".s:char."】")
+    call DebugPrint(" s:retry_keys=【".s:retry_keys."】")
+    call DebugPrint(" s:saved_keys=【".s:saved_keys."】")
+
+
     let s:char = s:retry_keys . s:saved_keys
     if len(s:saved_keys) == 0
         let s:char .= s:get_char()
@@ -1410,74 +1436,74 @@ function! s:wait_for_user_input(mode)
     endif
 
 
-    echon " before_if【".s:char."】"
+    call DebugPrint( " before_if【".s:char."】")
 
     " ambiguous mappings are note supported; e.g.:
     "       imap jj JJ
     "       imap jjj JJJ
     " will always trigger the 'jj' mapping
     " if s:from_mode ==# 'i' && mapcheck(s:char, "i") != ""
-    if s:from_mode ==# 'i' && MapCheck(s:char, "i") != 0
-        " let map_dict = {}
-        let s_time = s:get_time_in_ms()
-        while 1
-            " let map_dict = maparg(s:char, "i", 0, 1)
+    " if s:from_mode ==# 'i' && MapCheck(s:char, "i") != 0
+        " " let map_dict = {}
+        " let s_time = s:get_time_in_ms()
+        " while 1
+            " " let map_dict = maparg(s:char, "i", 0, 1)
+            " " " break if chars exactly match mapping or if chars don't match beging of mapping anymore
+            " " if map_dict != {} || mapcheck(s:char, "i") == ""
+                " " if get(map_dict, 'expr', 0)
+                    " " " handle case where {rhs} is a function
+                    " " exec 'let char_mapping = ' . map_dict['rhs']
+                " " else
+                    " " let char_mapping = maparg(s:char, "i")
+                " " endif
+                " " " handle case where mapping is <esc>
+                " " exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+                " " break
+            " " endif
+
+            " let char_mapping =  MapArg(s:char, 'i')
+
+            " echon "【char_mapping】".char_mapping
             " " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-            " if map_dict != {} || mapcheck(s:char, "i") == ""
-                " if get(map_dict, 'expr', 0)
-                    " " handle case where {rhs} is a function
-                    " exec 'let char_mapping = ' . map_dict['rhs']
-                " else
-                    " let char_mapping = maparg(s:char, "i")
-                " endif
+            " if char_mapping != "" || MapCheck(s:char, 'i') == 0
+                " echon " before_subs【".s:char."】"
                 " " handle case where mapping is <esc>
                 " exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+                " echon " after_subs【".s:char."】"
                 " break
             " endif
 
-            let char_mapping =  MapArg(s:char, 'i')
 
-            echon "【char_mapping】".char_mapping
-            " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-            if char_mapping != "" || MapCheck(s:char, 'i') == 0
-                echon " before_subs【".s:char."】"
-                " handle case where mapping is <esc>
-                exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                echon " after_subs【".s:char."】"
-                break
-            endif
-
-
-            if s:get_time_in_ms() > (s_time + &timeoutlen)
-                break
-            endif
-            let new_char = s:get_char(0)
-            let s:char .= new_char
-            if new_char == ''
-                sleep 50m
-            endif
-        endwhile
-    elseif s:from_mode !=# 'i' && s:char[0] ==# ":"
-        call feedkeys(s:char)
-        call s:cm.reset(1, 1, 1)
-        return
-    elseif s:from_mode ==# 'n' || s:from_mode =~# 'v\|V'
-        echon " before_getchar【".s:char."】"
-
-        if MapCheck(s:char, s:from_mode)
+            " if s:get_time_in_ms() > (s_time + &timeoutlen)
+                " break
+            " endif
+            " let new_char = s:get_char(0)
+            " let s:char .= new_char
+            " if new_char == ''
+                " sleep 50m
+            " endif
+        " endwhile
+    if match(s:char, "[\u80][\ufc]\<c-d>[\u80][\ufd]\<c-d>") != -1
+        call DebugPrint(" get <S-C-Up>【".s:char."】")
+    elseif s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
+        call DebugPrint(" before_getchar【".s:char."】" )
+        " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
+        " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
+        if MapCheck(s:char, s:from_mode) && match(s:char,"\<esc>") == 0
             " let map_dict = {}
+            call DebugPrint("【get esc】")
             let s_time = s:get_time_in_ms()
             while 1
 
                 let char_mapping =  MapArg(s:char, s:from_mode)
 
-                echon "【char_mapping】".char_mapping
+                call DebugPrint("【char_mapping】".char_mapping)
                 " break if chars exactly match mapping or if chars don't match beging of mapping anymore
                 if char_mapping != "" || MapCheck(s:char, s:from_mode) == 0
-                    echon " before_subs【".s:char."】"
+                    call DebugPrint( " before_subs【".s:char."】")
                     " handle case where mapping is <esc>
                     exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                    echon " after_subs【".s:char."】"
+                    call DebugPrint(" after_subs【".s:char."】")
                     break
                 endif
 
@@ -1491,78 +1517,96 @@ function! s:wait_for_user_input(mode)
                 endif
             endwhile
         endif
+        call DebugPrint( "【after get esc】")
 
-        while match(s:char, '\(^\|[^0-9]\)0\+$') == -1 && match(s:last_char(), "\\d") != -1
-        " while match(s:last_char(), "\\d") == 0
-            " if match(s:char, '\(^\|\a\)0') != -1
-                " fixes an edge case concerning the `0` key.
-                " The 0 key behaves differently from [1-9].
-                " It's consumed immediately when it is the
-                " first key typed while we're waiting for input.
-                " References: issue #152, pull #241
-                " break
-            " endif
-            let s:char .= s:get_char()
-        endwhile
+        if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V'
+            while match(s:char, '\(^\|[^0-9]\)0\+$') == -1
+                \ && match(s:last_char(), "\\d") != -1
+                \ && match(s:char, '[\u0080]\S\d') == -1
+            " while match(s:last_char(), "\\d") == 0
+                " if match(s:char, '\(^\|\a\)0') != -1
+                    " fixes an edge case concerning the `0` key.
+                    " The 0 key behaves differently from [1-9].
+                    " It's consumed immediately when it is the
+                    " first key typed while we're waiting for input.
+                    " References: issue #152, pull #241
+                    " break
+                " endif
+                call DebugPrint( "【get number】")
+                let s:char .= s:get_char()
+            endwhile
+        elseif s:from_mode !=# 'i' && s:char[0] ==# ":"
+            call feedkeys(s:char)
+            call s:cm.reset(1, 1, 1)
+            return
+        endif
 
 
     endif
 
-    echon " after_if【".s:char."】"
+    call DebugPrint( " after_if【".s:char."】")
 
     call s:start_latency_measure()
 
     " Clears any echoes we might've added
     " normal! :<Esc>
-
-    " add chars to s:char if it start like a special/quit key
-    let is_special_key = 0
-    let sk_list = get(s:special_keys, s:from_mode, [])
-    let is_special_key = (index(sk_list, s:char) != -1)
-    let is_quit_key = 0
-    let s_time = s:get_time_in_ms()
-    while 1
-        let start_special_key = (index(map(sk_list[:], 'v:val[0:len(s:char)-1] == s:char'), 1) > -1)
-        let start_quit_key = (g:multi_cursor_quit_key[0:len(s:char)-1] == s:char)
-        if start_special_key == 0 && start_quit_key == 0
-            break
-        else
-            let is_special_key = (index(sk_list, s:char) != -1)
-            let is_quit_key = (g:multi_cursor_quit_key == s:char)
-            " let is_quit_key = (g:multi_cursor_quit_key == s:last_char())
-            " if is_quit_key == 1
-                " s:char = g:multi_cursor_quit_key
-            " endif
-
-            if is_special_key == 1 || is_quit_key == 1
+    if match(s:char, "[\u80][\ufc]\<c-d>[\u80][\ufd]\<c-d>") != -1
+        let is_special_key = 0
+    else
+        " add chars to s:char if it start like a special/quit key
+        let is_special_key = 0
+        let sk_list = get(s:special_keys, s:from_mode, [])
+        let is_special_key = (index(sk_list, s:char) != -1)
+        let is_quit_key = 0
+        let s_time = s:get_time_in_ms()
+        while 1
+            " tell if s:cahr is the begining part of a special key or the quit key
+            let start_special_key = (index(map(sk_list[:], 'v:val[0:len(s:char)-1] == s:char'), 1) > -1)
+            let start_quit_key = (g:multi_cursor_quit_key[0:len(s:char)-1] == s:char)
+            if start_special_key == 0 && start_quit_key == 0
                 break
             else
-                if s:get_time_in_ms() > (s_time + &timeoutlen)
-                    break
-                endif
-                let new_char = s:get_char(0)
-                let s:char .= new_char
-                if new_char == ''
-                    sleep 50m
-                endif
-            endif
-        end
-    endwhile
+                let is_special_key = (index(sk_list, s:char) != -1)
+                let is_quit_key = (g:multi_cursor_quit_key == s:char)
+                " let is_quit_key = (g:multi_cursor_quit_key == s:last_char())
+                " if is_quit_key == 1
+                    " s:char = g:multi_cursor_quit_key
+                " endif
 
-    echon " before_exit【".s:char."】"
+                if is_special_key == 1 || is_quit_key == 1
+                    break
+                else
+                    if s:get_time_in_ms() > (s_time + &timeoutlen)
+                        break
+                    endif
+                    let new_char = s:get_char(0)
+                    let s:char .= new_char
+                    if new_char == ''
+                        sleep 50m
+                    endif
+                endif
+            end
+        endwhile
+    endif
+
+    call DebugPrint(" before_exit【".s:char."】")
 
     if s:exit()
         return
     endif
 
-    echon " after_exit【".s:char."】"
-
+    call DebugPrint(" after_exit【".s:char."】")
+    call DebugPrint("is_special_key = ". is_special_key)
     " If the key is a special key and we're in the right mode, handle it
     if is_special_key == 1
         call s:handle_special_key(s:char, s:from_mode)
         call s:skip_latency_measure()
     else
+        call DebugPrint(" before start_loop【".s:char."】")
+
         call s:cm.start_loop()
+        call DebugPrint(" after start_loop【".s:char."】")
+
         call s:feedkeys("\<Plug>(multiple-cursors-input)")
     endif
 endfunction
