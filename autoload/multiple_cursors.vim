@@ -951,15 +951,24 @@ function! s:process_user_input()
     " FIXME(terryma): Undo always places the cursor at the beginning of the line.
     " Figure out why.
     if s:from_mode ==# 'i' || s:to_mode ==# 'i'
+        call DebugPrint("before apply1 from ".s:from_mode." to ".s:to_mode)
         silent! undojoin | call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
+        call DebugPrint("after apply1 from ".s:from_mode." to ".s:to_mode)
     else
-        call DebugPrint(" before apply【".s:char."】")
+        call DebugPrint("before apply2 from ".s:from_mode." to ".s:to_mode)
+        call DebugPrint("before apply【".s:char."】")
         call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
+        call DebugPrint("after apply2 from ".s:from_mode." to ".s:to_mode)
     endif
+
+    call DebugPrint("before mc-detect: from ".s:from_mode." to ".s:to_mode)
 
     " Even when s:char produces invalid input, this method is always called. The
     " 't' here is important
     call feedkeys("\<Plug>(multiple-cursors-detect)", 't')
+
+    call DebugPrint("after mc-detect: from ".s:from_mode." to ".s:to_mode)
+
 endfunction
 
 " This method is always called during fanout, even when a bad user input causes
@@ -967,11 +976,14 @@ endfunction
 " to be called to continue the fanout process
 function! s:detect_bad_input()
     if !s:valid_input
+        call DebugPrint("invalid input: from mode ".s:from_mode." to ".s:to_mode)
         " To invoke the appropriate `<Plug>(multiple-cursors-apply)` mapping, we
         " need to revert back to the mode the user was in when the input was entered
         call s:revert_mode(s:to_mode, s:from_mode)
+        call DebugPrint("now mode: ".mode())
         " We ignore the bad input and force invoke s:apply_user_input_next
         call feedkeys("\<Plug>(multiple-cursors-apply)")
+        call DebugPrint("after invalid input: from mode ".s:from_mode." to ".s:to_mode)
         let s:bad_input += 1
     endif
 endfunction
@@ -999,6 +1011,8 @@ endfunction
 function! s:apply_user_input_next(mode)
     let s:valid_input = 1
 
+    call DebugPrint("before mc-input: from ".s:from_mode." to ".s:to_mode)
+
     " Save the current mode, only if we haven't already
     if empty(s:to_mode)
         let s:to_mode = a:mode
@@ -1008,12 +1022,15 @@ function! s:apply_user_input_next(mode)
             endif
         endif
     endif
+    call DebugPrint("before mc-input2: from ".s:from_mode." to ".s:to_mode)
 
     " Update the current cursor's information
     let changed = s:cm.update_current()
 
     " Advance the cursor index
     call s:cm.next()
+
+    call DebugPrint("before mc-input3: from ".s:from_mode." to ".s:to_mode)
 
     " We're done if we're made the full round
     if s:cm.loop_done()
@@ -1023,10 +1040,15 @@ function! s:apply_user_input_next(mode)
         endif
         call feedkeys("\<Plug>(multiple-cursors-wait)")
         call s:handle_visual_IA_to_insert()
+        call DebugPrint("before mc-input4: from ".s:from_mode." to ".s:to_mode)
+
     else
         " Continue to next
         call feedkeys("\<Plug>(multiple-cursors-input)")
+        call DebugPrint("after mc-input5: from ".s:from_mode." to ".s:to_mode)
+
     endif
+    call DebugPrint("after mc-input: from ".s:from_mode." to ".s:to_mode)
 endfunction
 
 " If pos is equal to the left side of the visual selection, the region start
@@ -1183,6 +1205,7 @@ function! s:display_error()
         call DebugPrint(" error2 【".s:char."】")
         let s:retry_keys = ""
         if s:bad_input > 0
+            call DebugPrint(" can't be replayed in ".s:bad_input."cursors 【".s:char."】")
             echohl ErrorMsg |
                         \ echo "Key '".s:char."' cannot be replayed at ".
                         \ s:bad_input." cursor location".(s:bad_input == 1 ? '' : 's') |
@@ -1396,6 +1419,7 @@ endfunction
 
 function! s:wait_for_user_input(mode)
     call DebugPrint(" start 【".s:char."】")
+    call DebugPrint(" mode:【".s:from_mode." to ".s:to_mode."】")
     " if return means clear the char buffer and restart the loop for waiting
     " for user input
     if s:display_error()
@@ -1411,6 +1435,15 @@ function! s:wait_for_user_input(mode)
         let s:from_mode = s:to_mode
     endif
     let s:to_mode = ''
+
+    " if empty(s:to_mode)
+        " let s:to_mode = a:mode
+        " if s:to_mode ==# 'v'
+            " if visualmode() ==# 'V'
+                " let s:to_mode = 'V'
+            " endif
+        " endif
+    " endif
 
     " Right before redraw, apply the highlighting bug fix
     call s:apply_highlight_fix()
