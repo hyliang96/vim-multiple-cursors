@@ -953,6 +953,7 @@ function! s:process_user_input()
     if s:from_mode ==# 'i' || s:to_mode ==# 'i'
         call DebugPrint("before apply1 from ".s:from_mode." to ".s:to_mode)
         silent! undojoin | call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
+        " undojoin | call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
         call DebugPrint("after apply1 from ".s:from_mode." to ".s:to_mode)
     else
         call DebugPrint("before apply2 from ".s:from_mode." to ".s:to_mode)
@@ -1415,11 +1416,18 @@ function! MapCheck(lhs, mode)
     return 0
 endfunction
 
+inoremap <silent> <plug>undojoin <C-g>u<space><bs>
 
 
 function! s:wait_for_user_input(mode)
     call DebugPrint(" start 【".s:char."】")
     call DebugPrint(" mode:【".s:from_mode." to ".s:to_mode."】")
+
+    if s:from_mode !=# s:to_mode && s:to_mode ==# 'i'
+        let s:saved_keys.="\<plug>undojoin"
+        " undojoin
+    endif
+
     " if return means clear the char buffer and restart the loop for waiting
     " for user input
     if s:display_error()
