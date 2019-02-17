@@ -904,7 +904,9 @@ function! s:feedkeys(keys)
             call DebugPrint(" c 【".c."】")
             if match(c, "[\u80][\ufc]\<C-D>") != -1
                 break
-            endif
+            elseif match(c, "^[\u80][\ufc]\<C-p>$") != -1
+                break
+            end
             let s:saved_keys .= c
         endif
     endwhile
