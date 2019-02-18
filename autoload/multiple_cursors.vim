@@ -902,9 +902,8 @@ function! s:feedkeys(keys)
             endif
         elseif char_type == 1 " char with more than 8 bits (as string)
             call DebugPrint(" c 【".c."】")
-            if match(c, "[\u80][\ufc]\<C-D>") != -1
-                break
-            elseif match(c, "^[\u80][\ufc]\<C-p>$") != -1
+            if c =~ "^[\u80][\ufc]\<C-D>" ||
+                \ c =~ "^[\\u80][\\ufc]\<C-p>"
                 break
             end
             let s:saved_keys .= c
@@ -1480,6 +1479,22 @@ function! s:wait_for_user_input(mode)
 
 
     call DebugPrint( " before_if【".s:char."】")
+    call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
+
+
+    if s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$"
+        let s:char="\<A-Up>"
+    endif
+    if s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]kd$"
+        let s:char="\<A-down>"
+    endif
+    if s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80][\\ufd]\<c-d>$"
+        let s:char="\<A-S-Up>"
+    endif
+    if s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80][\\ufd]\<C-E>$"
+        let s:char="\<A-S-down>"
+        call DebugPrint( " catch <a-S-down>" )
+    endif
 
     " ambiguous mappings are note supported; e.g.:
     "       imap jj JJ
@@ -1533,9 +1548,12 @@ function! s:wait_for_user_input(mode)
         call DebugPrint(" before_getchar【".s:char."】" )
         " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
         " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
-        if MapCheck(s:char, s:from_mode) && match(s:char,"\<esc>") == 0
+        if MapCheck(s:char, s:from_mode) &&  match(s:char,"\<esc>") == 0
+            " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
             call DebugPrint("【get esc】")
+            " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
+
             let s_time = s:get_time_in_ms()
             while 1
 
