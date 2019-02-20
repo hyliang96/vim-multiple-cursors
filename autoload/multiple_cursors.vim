@@ -891,7 +891,7 @@ function! s:feedkeys(keys)
         let c = getchar(0)
         let char_type = type(c)
         call DebugPrint(" type(c)=【".char_type."】")
-
+        call DebugPrint(" c =【".c."】")
         " Checking type is important, when strings are compared with integers,
         " strings are always converted to ints, and all strings are equal to 0
         if char_type == 0
@@ -1417,7 +1417,7 @@ function! MapCheck(lhs, mode)
     return 0
 endfunction
 
-inoremap <silent> <plug>undojoin <C-g>u<space><bs>
+inoremap <silent> <plug>Undojoin <C-g>u<space><bs>
 
 
 function! s:wait_for_user_input(mode)
@@ -1425,7 +1425,7 @@ function! s:wait_for_user_input(mode)
     call DebugPrint(" mode:【".s:from_mode." to ".s:to_mode."】")
 
     if s:from_mode !=# s:to_mode && s:to_mode ==# 'i'
-        let s:saved_keys.="\<plug>undojoin"
+        let s:saved_keys.="\<plug>Undojoin"
         " undojoin
     endif
 
