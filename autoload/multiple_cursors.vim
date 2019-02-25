@@ -890,8 +890,8 @@ function! s:feedkeys(keys)
     while 1
         let c = getchar(0)
         let char_type = type(c)
-        call DebugPrint(" type(c)=【".char_type."】")
-        call DebugPrint(" c =【".c."】")
+        " call DebugPrint(" type(c)=【".char_type."】")
+        " call DebugPrint(" c =【".c."】")
         " Checking type is important, when strings are compared with integers,
         " strings are always converted to ints, and all strings are equal to 0
         if char_type == 0
@@ -901,7 +901,7 @@ function! s:feedkeys(keys)
                 let s:saved_keys .= nr2char(c)
             endif
         elseif char_type == 1 " char with more than 8 bits (as string)
-            call DebugPrint(" c 【".c."】")
+            " call DebugPrint(" c 【".c."】")
             if c =~ "^[\u80][\ufc]\<C-D>" ||
                 \ c =~ "^[\\u80][\\ufc]\<C-p>"
                 break
@@ -909,8 +909,8 @@ function! s:feedkeys(keys)
             let s:saved_keys .= c
         endif
     endwhile
-    call DebugPrint(" before 【".a:keys."】")
-    call DebugPrint(" feedkesys s:saved_keys=【".s:saved_keys."】")
+    " call DebugPrint(" before 【".a:keys."】")
+    " call DebugPrint(" feedkesys s:saved_keys=【".s:saved_keys."】")
 
     call feedkeys(a:keys)
 endfunction
@@ -952,24 +952,24 @@ function! s:process_user_input()
     " FIXME(terryma): Undo always places the cursor at the beginning of the line.
     " Figure out why.
     if s:from_mode ==# 'i' || s:to_mode ==# 'i'
-        call DebugPrint("before apply1 from ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("before apply1 from ".s:from_mode." to ".s:to_mode)
         silent! undojoin | call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
         " undojoin | call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
-        call DebugPrint("after apply1 from ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("after apply1 from ".s:from_mode." to ".s:to_mode)
     else
-        call DebugPrint("before apply2 from ".s:from_mode." to ".s:to_mode)
-        call DebugPrint("before apply【".s:char."】")
+        " call DebugPrint("before apply2 from ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("before apply【".s:char."】")
         call s:feedkeys(s:char."\<Plug>(multiple-cursors-apply)")
-        call DebugPrint("after apply2 from ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("after apply2 from ".s:from_mode." to ".s:to_mode)
     endif
 
-    call DebugPrint("before mc-detect: from ".s:from_mode." to ".s:to_mode)
+    " call DebugPrint("before mc-detect: from ".s:from_mode." to ".s:to_mode)
 
     " Even when s:char produces invalid input, this method is always called. The
     " 't' here is important
     call feedkeys("\<Plug>(multiple-cursors-detect)", 't')
 
-    call DebugPrint("after mc-detect: from ".s:from_mode." to ".s:to_mode)
+    " call DebugPrint("after mc-detect: from ".s:from_mode." to ".s:to_mode)
 
 endfunction
 
@@ -978,14 +978,14 @@ endfunction
 " to be called to continue the fanout process
 function! s:detect_bad_input()
     if !s:valid_input
-        call DebugPrint("invalid input: from mode ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("invalid input: from mode ".s:from_mode." to ".s:to_mode)
         " To invoke the appropriate `<Plug>(multiple-cursors-apply)` mapping, we
         " need to revert back to the mode the user was in when the input was entered
         call s:revert_mode(s:to_mode, s:from_mode)
-        call DebugPrint("now mode: ".mode())
+        " call DebugPrint("now mode: ".mode())
         " We ignore the bad input and force invoke s:apply_user_input_next
         call feedkeys("\<Plug>(multiple-cursors-apply)")
-        call DebugPrint("after invalid input: from mode ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("after invalid input: from mode ".s:from_mode." to ".s:to_mode)
         let s:bad_input += 1
     endif
 endfunction
@@ -1013,7 +1013,7 @@ endfunction
 function! s:apply_user_input_next(mode)
     let s:valid_input = 1
 
-    call DebugPrint("before mc-input: from ".s:from_mode." to ".s:to_mode)
+    " call DebugPrint("before mc-input: from ".s:from_mode." to ".s:to_mode)
 
     " Save the current mode, only if we haven't already
     if empty(s:to_mode)
@@ -1024,7 +1024,7 @@ function! s:apply_user_input_next(mode)
             endif
         endif
     endif
-    call DebugPrint("before mc-input2: from ".s:from_mode." to ".s:to_mode)
+    " call DebugPrint("before mc-input2: from ".s:from_mode." to ".s:to_mode)
 
     " Update the current cursor's information
     let changed = s:cm.update_current()
@@ -1032,7 +1032,7 @@ function! s:apply_user_input_next(mode)
     " Advance the cursor index
     call s:cm.next()
 
-    call DebugPrint("before mc-input3: from ".s:from_mode." to ".s:to_mode)
+    " call DebugPrint("before mc-input3: from ".s:from_mode." to ".s:to_mode)
 
     " We're done if we're made the full round
     if s:cm.loop_done()
@@ -1042,15 +1042,15 @@ function! s:apply_user_input_next(mode)
         endif
         call feedkeys("\<Plug>(multiple-cursors-wait)")
         call s:handle_visual_IA_to_insert()
-        call DebugPrint("before mc-input4: from ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("before mc-input4: from ".s:from_mode." to ".s:to_mode)
 
     else
         " Continue to next
         call feedkeys("\<Plug>(multiple-cursors-input)")
-        call DebugPrint("after mc-input5: from ".s:from_mode." to ".s:to_mode)
+        " call DebugPrint("after mc-input5: from ".s:from_mode." to ".s:to_mode)
 
     endif
-    call DebugPrint("after mc-input: from ".s:from_mode." to ".s:to_mode)
+    " call DebugPrint("after mc-input: from ".s:from_mode." to ".s:to_mode)
 endfunction
 
 " If pos is equal to the left side of the visual selection, the region start
@@ -1181,14 +1181,14 @@ endfunction
 let s:retry_keys = ""
 function! s:display_error()
     " echon " 1【".s:char."】"
-    call DebugPrint(" start error 【".s:char."】")
+    " call DebugPrint(" start error 【".s:char."】")
 
     if s:bad_input == s:cm.size()
                 \ && ((s:from_mode ==# 'n'      && has_key(g:multi_cursor_normal_maps, s:char[0]))
                 \ ||    (s:from_mode =~# 'v\|V' && has_key(g:multi_cursor_visual_maps, s:char[0])))
         " we couldn't replay it anywhere but we're told it's the beginning of a
         " multi-character map like the `d` in `dw`
-        call DebugPrint(" error1 【".s:char."】")
+        " call DebugPrint(" error1 【".s:char."】")
 
         let s:retry_keys = s:char
         " echohl ErrorMsg | echo " 2【".s:char."】" | echohl Normal
@@ -1204,10 +1204,10 @@ function! s:display_error()
             return 1
         endif
     else
-        call DebugPrint(" error2 【".s:char."】")
+        " call DebugPrint(" error2 【".s:char."】")
         let s:retry_keys = ""
         if s:bad_input > 0
-            call DebugPrint(" can't be replayed in ".s:bad_input."cursors 【".s:char."】")
+            " call DebugPrint(" can't be replayed in ".s:bad_input."cursors 【".s:char."】")
             echohl ErrorMsg |
                         \ echo "Key '".s:char."' cannot be replayed at ".
                         \ s:bad_input." cursor location".(s:bad_input == 1 ? '' : 's') |
@@ -1378,7 +1378,7 @@ function! MapArg(lhs, mode)
             else
                 let l:rhs = maparg(l:lhs, a:mode)
             endif
-            call DebugPrint("【left】".l:lhs."【right】".l:rhs)
+            " call DebugPrint("【left】".l:lhs."【right】".l:rhs)
             return l:rhs
         endif
 
@@ -1409,7 +1409,7 @@ function! MapCheck(lhs, mode)
         " echon " | ".l:lhs_echo
 
         if match(l:lhs_echo, '^\C'.l:lhs_echo_0) != -1
-            call DebugPrint("【l:map】".l:map)
+            " call DebugPrint("【l:map】".l:map)
             return 1
         endif
 
@@ -1421,8 +1421,8 @@ inoremap <silent> <plug>Undojoin <C-g>u<space><bs>
 
 
 function! s:wait_for_user_input(mode)
-    call DebugPrint(" start 【".s:char."】")
-    call DebugPrint(" mode:【".s:from_mode." to ".s:to_mode."】")
+    " call DebugPrint(" start 【".s:char."】")
+    " call DebugPrint(" mode:【".s:from_mode." to ".s:to_mode."】")
 
     if s:from_mode !=# s:to_mode && s:to_mode ==# 'i'
         let s:saved_keys.="\<plug>Undojoin"
@@ -1437,7 +1437,7 @@ function! s:wait_for_user_input(mode)
         return
     endif
 
-    call DebugPrint(" after error 【".s:char."】")
+    " call DebugPrint(" after error 【".s:char."】")
 
     let s:from_mode = a:mode
     if empty(a:mode)
@@ -1464,9 +1464,9 @@ function! s:wait_for_user_input(mode)
 
     call s:end_latency_measure()
 
-    call DebugPrint(" brefore retry : s:char=【".s:char."】")
-    call DebugPrint(" s:retry_keys=【".s:retry_keys."】")
-    call DebugPrint(" s:saved_keys=【".s:saved_keys."】")
+    " call DebugPrint(" brefore retry : s:char=【".s:char."】")
+    " call DebugPrint(" s:retry_keys=【".s:retry_keys."】")
+    " call DebugPrint(" s:saved_keys=【".s:saved_keys."】")
 
 
     let s:char = s:retry_keys . s:saved_keys
@@ -1478,8 +1478,8 @@ function! s:wait_for_user_input(mode)
     endif
 
 
-    call DebugPrint( " before_if【".s:char."】")
-    call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
+    " call DebugPrint( " before_if【".s:char."】")
+    " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
 
     if s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$"
@@ -1493,79 +1493,31 @@ function! s:wait_for_user_input(mode)
     endif
     if s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80][\\ufd]\<C-E>$"
         let s:char="\<A-S-down>"
-        call DebugPrint( " catch <a-S-down>" )
+        " call DebugPrint( " catch <a-S-down>" )
     endif
 
-    " ambiguous mappings are note supported; e.g.:
-    "       imap jj JJ
-    "       imap jjj JJJ
-    " will always trigger the 'jj' mapping
-    " if s:from_mode ==# 'i' && mapcheck(s:char, "i") != ""
-    " if s:from_mode ==# 'i' && MapCheck(s:char, "i") != 0
-        " " let map_dict = {}
-        " let s_time = s:get_time_in_ms()
-        " while 1
-            " " let map_dict = maparg(s:char, "i", 0, 1)
-            " " " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-            " " if map_dict != {} || mapcheck(s:char, "i") == ""
-                " " if get(map_dict, 'expr', 0)
-                    " " " handle case where {rhs} is a function
-                    " " exec 'let char_mapping = ' . map_dict['rhs']
-                " " else
-                    " " let char_mapping = maparg(s:char, "i")
-                " " endif
-                " " " handle case where mapping is <esc>
-                " " exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                " " break
-            " " endif
-
-            " let char_mapping =  MapArg(s:char, 'i')
-
-            " echon "【char_mapping】".char_mapping
-            " " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-            " if char_mapping != "" || MapCheck(s:char, 'i') == 0
-                " echon " before_subs【".s:char."】"
-                " " handle case where mapping is <esc>
-                " exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                " echon " after_subs【".s:char."】"
-                " break
-            " endif
-
-
-            " if s:get_time_in_ms() > (s_time + &timeoutlen)
-                " break
-            " endif
-            " let new_char = s:get_char(0)
-            " let s:char .= new_char
-            " if new_char == ''
-                " sleep 50m
-            " endif
-        " endwhile
-    " if match(s:char, "[\u80][\ufc]\<c-d>[\u80][\ufd]\<c-d>") != -1
-        " call DebugPrint(" get <S-C-Up>【".s:char."】")
-    " else
     if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
-        call DebugPrint(" before_getchar【".s:char."】" )
+        " call DebugPrint(" before_getchar【".s:char."】" )
         " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
         " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
         if MapCheck(s:char, s:from_mode) &&  match(s:char,"\<esc>") == 0
             " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
-            call DebugPrint("【get esc】")
-            " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
+            " call DebugPrint("【get esc】")
+            call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
             let s_time = s:get_time_in_ms()
             while 1
 
                 let char_mapping =  MapArg(s:char, s:from_mode)
 
-                call DebugPrint("【char_mapping】".char_mapping)
+                " call DebugPrint("【char_mapping】".char_mapping)
                 " break if chars exactly match mapping or if chars don't match beging of mapping anymore
                 if char_mapping != "" || MapCheck(s:char, s:from_mode) == 0
-                    call DebugPrint( " before_subs【".s:char."】")
+                    " call DebugPrint( " before_subs【".s:char."】")
                     " handle case where mapping is <esc>
                     exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                    call DebugPrint(" after_subs【".s:char."】")
+                    " call DebugPrint(" after_subs【".s:char."】")
                     break
                 endif
 
@@ -1579,7 +1531,7 @@ function! s:wait_for_user_input(mode)
                 endif
             endwhile
         endif
-        call DebugPrint( "【after get esc】")
+        " call DebugPrint( "【after get esc】")
 
         if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V'
             while match(s:char, '\(^\|[^0-9]\)0\+$') == -1
@@ -1594,7 +1546,7 @@ function! s:wait_for_user_input(mode)
                     " References: issue #152, pull #241
                     " break
                 " endif
-                call DebugPrint( "【get number】")
+                " call DebugPrint( "【get number】")
                 let s:char .= s:get_char()
             endwhile
         elseif s:from_mode !=# 'i' && s:char[0] ==# ":"
@@ -1604,7 +1556,7 @@ function! s:wait_for_user_input(mode)
         endif
     endif
 
-    call DebugPrint( " after_if【".s:char."】")
+    " call DebugPrint( " after_if【".s:char."】")
 
     call s:start_latency_measure()
 
@@ -1645,23 +1597,23 @@ function! s:wait_for_user_input(mode)
         end
     endwhile
 
-    call DebugPrint(" before_exit【".s:char."】")
+    " call DebugPrint(" before_exit【".s:char."】")
 
     if s:exit()
         return
     endif
 
-    call DebugPrint(" after_exit【".s:char."】")
-    call DebugPrint("is_special_key = ". is_special_key)
+    " call DebugPrint(" after_exit【".s:char."】")
+    " call DebugPrint("is_special_key = ". is_special_key)
     " If the key is a special key and we're in the right mode, handle it
     if is_special_key == 1
         call s:handle_special_key(s:char, s:from_mode)
         call s:skip_latency_measure()
     else
-        call DebugPrint(" before start_loop【".s:char."】")
+        " call DebugPrint(" before start_loop【".s:char."】")
 
         call s:cm.start_loop()
-        call DebugPrint(" after start_loop【".s:char."】")
+        " call DebugPrint(" after start_loop【".s:char."】")
 
         call s:feedkeys("\<Plug>(multiple-cursors-input)")
     endif
