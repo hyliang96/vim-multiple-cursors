@@ -1504,7 +1504,7 @@ function! s:wait_for_user_input(mode)
             " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
             " call DebugPrint("【get esc】")
-            call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
+            " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
             let s_time = s:get_time_in_ms()
             while 1
