@@ -1389,12 +1389,15 @@ endfunction
 
 
 function! MapCheck(lhs, mode)
+" 返回0：map表中没有以lhs开头的
+" 返回1: map表以lhs开头的只有lhs
+" 返回2: map表中有以lhs开头且不是lhs的
     " let l:sublhs_0 = substitute(a:lhs,'<','\\<','g')
     exec 'redir => l:mappings | silent! ' . a:mode . 'map | redir END'
     exec 'redir => l:lhs_echo_0 | silent! echo "'.a:lhs.'" | redir END'
     let l:lhs_echo_0 = substitute(l:lhs_echo_0, '^\n' , '', 'g')
     " echon " 0=" . l:lhs_echo_0
-
+    let result=0
     for l:map in split(l:mappings, '\n')
         let l:map = substitute(l:map, '^[a-z!]*\s\+','','g')
         let l:lhs = split(l:map, '\s\+')[0]
@@ -1409,12 +1412,15 @@ function! MapCheck(lhs, mode)
         " echon " | ".l:lhs_echo
 
         if match(l:lhs_echo, '^\C'.l:lhs_echo_0) != -1
+            if l:lhs_echo !=# l:lhs_echo_0
             " call DebugPrint("【l:map】".l:map)
-            return 1
+                return 2
+            else
+                let result=1
+            endif
         endif
-
     endfor
-    return 0
+    return result
 endfunction
 
 inoremap <silent> <plug>Undojoin <C-g>u<space><bs>
@@ -1478,7 +1484,7 @@ function! s:wait_for_user_input(mode)
     endif
 
 
-    " call DebugPrint( " before_if【".s:char."】")
+    call DebugPrint( " before_if【".s:char."】")
     " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
 
@@ -1497,39 +1503,51 @@ function! s:wait_for_user_input(mode)
     endif
 
     if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
-        " call DebugPrint(" before_getchar【".s:char."】" )
-        " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
-        " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
-        if MapCheck(s:char, s:from_mode) &&  match(s:char,"\<esc>") == 0
+        call DebugPrint(" before_getchar【".s:char."】" )
+        echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
+        echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
+        if MapCheck(s:char, s:from_mode) != 0  &&  ( match(s:char,"\<esc>") == 0  || match(s:char,"\<c-e>") == 0 )
             " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
-            " call DebugPrint("【get esc】")
+            call DebugPrint("【get esc】")
             " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
             let s_time = s:get_time_in_ms()
+            let s:temp_char = ''
             while 1
-
                 let char_mapping =  MapArg(s:char, s:from_mode)
 
-                " call DebugPrint("【char_mapping】".char_mapping)
-                " break if chars exactly match mapping or if chars don't match beging of mapping anymore
-                if char_mapping != "" || MapCheck(s:char, s:from_mode) == 0
+                call DebugPrint("【char_mapping】".char_mapping)
+                " break if chars exactly match mapping
+                if char_mapping != ""
                     " call DebugPrint( " before_subs【".s:char."】")
                     " handle case where mapping is <esc>
-                    exec 'let s:char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                    " call DebugPrint(" after_subs【".s:char."】")
+                    exec 'let s:temp_char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
+                    call DebugPrint(" after_subs【".s:char."】")
+                    " break
+                endif
+                " 若无以s:char开始但不是s:char的map
+                if MapCheck(s:char, s:from_mode) != 2
                     break
                 endif
-
                 if s:get_time_in_ms() > (s_time + &timeoutlen)
                     break
                 endif
-                let new_char = s:get_char(0)
-                let s:char .= new_char
-                if new_char == ''
-                    sleep 50m
-                endif
+                while s:get_time_in_ms() <= (s_time + &timeoutlen)
+                    let new_char = s:get_char(0)
+                    if new_char == ''
+                        sleep 50m
+                    else
+                        let s:char .= new_char
+                        call DebugPrint("get new_char【" . s:char.'】')
+                        break
+                    endif
+                endwhile
             endwhile
+
+            if s:temp_char != ''
+                let s:char = s:temp_char
+            endif
         endif
         " call DebugPrint( "【after get esc】")
 
