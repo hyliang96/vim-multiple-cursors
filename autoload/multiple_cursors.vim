@@ -1484,7 +1484,7 @@ function! s:wait_for_user_input(mode)
     endif
 
 
-    call DebugPrint( " before_if【".s:char."】")
+    " call DebugPrint( " before_if【".s:char."】")
     " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
 
@@ -1503,13 +1503,13 @@ function! s:wait_for_user_input(mode)
     endif
 
     if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
-        call DebugPrint(" before_getchar【".s:char."】" )
+        " call DebugPrint(" before_getchar【".s:char."】" )
         echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
         echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
         if MapCheck(s:char, s:from_mode) != 0  &&  ( match(s:char,"\<esc>") == 0  || match(s:char,"\<c-e>") == 0 )
             " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
-            call DebugPrint("【get esc】")
+            " call DebugPrint("【get esc】")
             " call DebugPrint( " catch <a-up>" . (s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" ))
 
             let s_time = s:get_time_in_ms()
@@ -1517,13 +1517,13 @@ function! s:wait_for_user_input(mode)
             while 1
                 let char_mapping =  MapArg(s:char, s:from_mode)
 
-                call DebugPrint("【char_mapping】".char_mapping)
+                " call DebugPrint("【char_mapping】".char_mapping)
                 " break if chars exactly match mapping
                 if char_mapping != ""
                     " call DebugPrint( " before_subs【".s:char."】")
                     " handle case where mapping is <esc>
                     exec 'let s:temp_char = "'.substitute(char_mapping, '<', '\\<', 'g').'"'
-                    call DebugPrint(" after_subs【".s:char."】")
+                    " call DebugPrint(" after_subs【".s:char."】")
                     " break
                 endif
                 " 若无以s:char开始但不是s:char的map
@@ -1539,7 +1539,7 @@ function! s:wait_for_user_input(mode)
                         sleep 50m
                     else
                         let s:char .= new_char
-                        call DebugPrint("get new_char【" . s:char.'】')
+                        " call DebugPrint("get new_char【" . s:char.'】')
                         break
                     endif
                 endwhile
