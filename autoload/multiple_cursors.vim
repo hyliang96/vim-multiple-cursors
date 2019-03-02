@@ -1504,8 +1504,8 @@ function! s:wait_for_user_input(mode)
 
     if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
         " call DebugPrint(" before_getchar【".s:char."】" )
-        echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
-        echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
+        " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
+        " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
         if MapCheck(s:char, s:from_mode) != 0  &&  ( match(s:char,"\<esc>") == 0  || match(s:char,"\<c-e>") == 0 )
             " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
@@ -1548,6 +1548,7 @@ function! s:wait_for_user_input(mode)
             if s:temp_char != ''
                 let s:char = s:temp_char
             endif
+            " call DebugPrint("get mapped【" . s:char.'】')
         endif
         " call DebugPrint( "【after get esc】")
 
