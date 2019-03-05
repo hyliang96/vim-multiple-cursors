@@ -11,7 +11,9 @@
 for s:key in [ 'g:multi_cursor_next_key',
                      \ 'g:multi_cursor_prev_key',
                      \ 'g:multi_cursor_skip_key',
-                     \ 'g:multi_cursor_quit_key' ]
+                     \ 'g:multi_cursor_quit_key',
+                     \ 'g:multi_cursor_select_all_key', 'g:multi_cursor_start_key', 'g:multi_cursor_select_all_word_key'
+                     \  ]
     if exists(s:key)
         " Translate raw strings like "<C-n>" into key code like "\<C-n>"
         exec 'let s:temp = '.s:key
@@ -29,7 +31,8 @@ unlet! s:key s:temp
 " These keys will not be replicated at every cursor location. Make sure that
 " this assignment happens AFTER the key tweak setting above
 let s:special_keys = {
-            \ 'v': [ g:multi_cursor_next_key, g:multi_cursor_prev_key, g:multi_cursor_skip_key ],
+            \ 'v': [ g:multi_cursor_next_key, g:multi_cursor_prev_key, g:multi_cursor_skip_key,
+            \ g:multi_cursor_select_all_key, g:multi_cursor_start_key, g:multi_cursor_select_all_word_key ],
             \ 'n': [ g:multi_cursor_next_key ],
             \ }
 
@@ -184,13 +187,21 @@ function! multiple_cursors#quit()
 endfunction
 
 " Delete the current cursor. If there's no more cursors, stop the loop
+" function! multiple_cursors#prev()
+    " call s:cm.delete_current()
+    " if !s:cm.is_empty()
+        " call s:update_visual_markers(s:cm.get_current().visual)
+        " call cursor(s:cm.get_current().position)
+        " call s:wait_for_user_input('v')
+    " endif
+" endfunction
 function! multiple_cursors#prev()
-    call s:cm.delete_current()
-    if !s:cm.is_empty()
+    if s:cm.size() > 1
+        call s:cm.delete_current()
         call s:update_visual_markers(s:cm.get_current().visual)
         call cursor(s:cm.get_current().position)
-        call s:wait_for_user_input('v')
     endif
+    call s:wait_for_user_input('v')
 endfunction
 
 " Skip the current cursor and move to the next cursor
