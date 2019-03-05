@@ -1512,12 +1512,26 @@ function! s:wait_for_user_input(mode)
         let s:char="\<A-S-down>"
         " call DebugPrint( " catch <a-S-down>" )
     endif
+    if s:char=~ "^[\\u80][\\ufc]\<C-H>[\\u80]kb$"
+        let s:cahr="\<plug>DeleteWordBefore"
+    endif
+    if s:char=~ "^[\\u80][\\ufc]\<C-H>d$"
+        let s:char="\<plug>DeleteWordAfter"
+    endif
+    if s:char=~ "^[\\u80][\\ufc]\<C-H>b$"
+        let s:char="\<M-left>"
+    endif
+    if s:char=~  "^[\\u80][\\ufc]\<C-H>f$"
+        let s:char="\<M-right>"
+    endif
 
     if s:from_mode ==# 'n' || s:from_mode =~# 'v\|V' || s:from_mode ==# 'i'
         " call DebugPrint(" before_getchar【".s:char."】" )
         " echon "【MapCheck(s:char, s:from_mode)=】"  MapCheck(s:char, s:from_mode)
         " echon "【 match(s:char,\"\<esc>\") =】"  match(s:char,"\<esc>")
-        if MapCheck(s:char, s:from_mode) != 0  &&  ( match(s:char,"\<esc>") == 0  || match(s:char,"\<c-e>") == 0 )
+        if ( MapCheck(s:char, s:from_mode) != 0  &&
+                    \ ( match(s:char,"\<esc>") == 0
+                    \ || match(s:char,"\<c-e>") == 0 ))
             " \ s:char=~ "^[\\u80][\\ufc]\<C-p>[\\u80]ku$" )
             " let map_dict = {}
             " call DebugPrint("【get esc】")
